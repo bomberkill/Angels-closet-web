@@ -1,0 +1,31 @@
+{
+  "welcomeTitle": "Welcome to",
+  "welcomeText": "This starter Next.js project includes a minimal setup for server side rendering. If you want to learn more on Mantine + Next.js integration follow",
+  "welcomeGuide": "this guide",
+  "welcomeEdit": "To get started edit index.tsx file.",
+  "header": {
+    "sections": {
+      "home": "Home",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "section": {
+        "title": "Services",
+        "subLinks": {
+          "moving": "Moving",
+          "remodeling": "Remodeling",
+          "cleaning": "Cleaning"
+        }
+      },
+      "link": "Useful links"
+    },
+    "button": "Contact Us",
+    "follow": "Follow us on social media",
+    "rights": "All rights reserved"
+  },
+  "cta": {
+    "title": "Ready for a Hassle-Free Experience?",
+    "subTitle": "Let our experts handle your moving, remodeling, or cleaning needs with professionalism and care.",
+    "buttonText": "Get a Free Quote",
+    "callButton": "Call Us Now"
+  }
+}

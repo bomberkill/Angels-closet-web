@@ -1,0 +1,83 @@
+{
+  "title": "Élevez votre",
+  "environment": "environnement",
+  "description": "Faites confiance à nos professionnels pour des déménagements efficaces, des rénovations créatives et des services de nettoyage complets.",
+  "header": {
+    "button": "Contactez-nous"
+  },
+  "service": {
+    "title": "Nos services",
+    "subTitle": "Découvrez nos services professionnels pour répondre à tous vos besoins.",
+    "moving": {
+      "title": "Services de déménagement",
+      "description": "Solutions de déménagement efficaces et sécurisées pour votre maison ou bureau.",
+      "buttonText": "En savoir plus"
+    },
+    "remodeling": {
+      "title": "Services de rénovation",
+      "description": "Transformez votre espace avec nos solutions de rénovation expertes.",
+      "buttonText": "En savoir plus"
+    },
+    "cleaning": {
+      "title": "Services de nettoyage",
+      "description": "Nettoyage minutieux pour un environnement sain et étincelant.",
+      "buttonText": "En savoir plus"
+    }
+  },
+  "about": {
+    "title": "Le meilleur choix pour vos besoins",
+    "subTitle": "Du déménagement à la rénovation et au nettoyage, nous rendons chaque étape fluide et sans stress.",
+    "solution": {
+        "title": "Des solutions sur mesure",
+        "description": "Chaque client est unique, et nous adaptons nos services à vos attentes. Que ce soit un plan de déménagement, un projet de rénovation ou un service de nettoyage minutieux, nous ajustons chaque détail à votre vision et votre budget."
+    },
+    "quality": {
+        "title": "Qualité et sens du détail",
+        "description": "Nous mettons l’excellence au cœur de chaque projet. Grâce à des matériaux de haute qualité et des techniques avancées, nos experts garantissent une exécution précise et des résultats durables, qu’il s’agisse de déménagement, de rénovation ou de nettoyage approfondi."
+    },
+    "stress": {
+        "title": "Une expérience sans stress",
+        "description": "Nous nous occupons de tout, de la planification à l’exécution, pour que vous n’ayez aucun souci. Notre équipe assure un processus fluide, vous permettant de profiter de votre nouvel espace en toute sérénité."
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subTitle": "Des témoignages authentiques de clients satisfaits qui nous ont fait confiance pour leur déménagement, rénovation et nettoyage.",
+    "reviews": {
+        "user1": {
+            "role": "Propriétaire",
+            "description": "Le déménagement s’est déroulé sans le moindre souci. L’équipe a tout géré avec soin et professionnalisme. Je recommande vivement !"
+        },
+        "user2": {
+            "role": "Chef d’entreprise",
+            "description": "Nous avons fait appel à eux pour la rénovation complète de nos bureaux, et le résultat a dépassé nos attentes. Un travail de qualité avec une grande attention aux détails !"
+        },
+        "user3": {
+            "role": "Professionnel Occupé",
+            "description": "Leur service de nettoyage est impeccable ! Rentrer chez soi après une longue journée et trouver un espace impeccable est un vrai bonheur. Je ferai appel à eux à nouveau sans hésiter !"
+        }
+    }
+  },
+  "meta": {
+        "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
+        "description": "Looking for stress-free moving, expert remodeling, or professional cleaning services? We provide top-quality solutions tailored to your needs. Get a free quote today!",
+        "keywords": "moving services, remodeling, home cleaning, professional movers, deep cleaning, home renovation, stress-free moving, expert remodeling, cleaning company, best movers",
+        "robots": "index, follow",
+        "canonical": "https://yourwebsite.com/"
+    },
+    "openGraph": {
+        "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
+        "description": "Get professional moving, remodeling, and cleaning services tailored to your needs. Hassle-free experience guaranteed!",
+        "url": "https://yourwebsite.com/",
+        "image": "https://yourwebsite.com/og-image.jpg",
+        "type": "website"
+    },
+    "twitter": {
+        "card": "summary_large_image",
+        "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
+        "description": "Looking for professional moving, remodeling, or cleaning services? We’ve got you covered. Get a free quote today!",
+        "image": "https://yourwebsite.com/twitter-image.jpg",
+        "site": "@YourTwitterHandle"
+    }
+
+}

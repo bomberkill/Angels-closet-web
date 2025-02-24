@@ -1,0 +1,31 @@
+{
+  "welcomeTitle": "Bienvenue à",
+  "welcomeText": "Ce projet de démarrage Next.js inclut une configuration minimale pour le rendu côté serveur. Si vous voulez en savoir plus sur l'intégration de Mantine + Next.js, suivez",
+  "welcomeGuide": "ce guide",
+  "welcomeEdit": "Pour commencer, modifiez le fichier index.tsx.",
+  "header": {
+    "sections": {
+      "home": "Accueil",
+      "about": "À propos de nous",
+      "contact": "Contactez-nous",
+      "section": {
+        "title": "Services",
+        "subLinks": {
+          "moving": "Déménagement",
+          "remodeling": "Rénovation",
+          "cleaning": "Nettoyage"
+        }
+      },
+      "link": "Liens utiles"
+    },
+    "button": "Contactez-nous",
+    "follow": "Suivez-nous sur les réseaux sociaux",
+    "rights": "Tous droits réservés"
+  },
+  "cta": {
+    "title": "Prêt pour une Expérience Sans Stress ?",
+    "subTitle": "Confiez-nous votre déménagement, rénovation ou nettoyage et profitez d’un service professionnel et soigné.",
+    "buttonText": "Obtenez un Devis Gratuit",
+    "callButton": "Appelez Maintenant"
+  }
+}

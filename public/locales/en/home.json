@@ -1,0 +1,83 @@
+{
+  "title": "Elevate your",
+  "environment": "environment",
+  "description": "Trust our professionals for efficient moving, creative remodeling, and comprehensive cleaning services.",
+  "header": {
+    "button": "Contact us"
+  },
+  "service": {
+    "title": "Our services",
+    "subTitle": "Explore our professional services to meet all your needs.",
+    "moving": {
+      "title": "Moving services",
+      "description": "Efficient and secure moving solutions for your home or office.",
+      "buttonText": "Learn more"
+    },
+    "remodeling": {
+      "title": "Remodeling services",
+      "description": "Transform your space with our expert remodeling solutions.",
+      "buttonText": "Learn more"
+    },
+    "cleaning": {
+      "title": "Cleaning services",
+      "description": "Meticulous cleaning for a healthy, sparkling environment.",
+      "buttonText": "Learn more"
+    }
+  },
+  "about": {
+    "title": "The right choice for your needs",
+    "subTitle": "From moving to remodeling and cleaning, we make every step seamless and stress-free.",
+    "solution": {
+        "title": "Tailored solutions",
+        "description": "Every client is unique, and so are their needs. That’s why we personalize our services to match your expectations. Whether it’s a moving plan, a remodeling project, or a detailed cleaning service, we adapt every aspect to fit your vision and budget."
+    },
+    "quality": {
+        "title": "Quality & attention to detail",
+        "description": "We prioritize excellence in every project. Using top-quality materials and advanced techniques, our experts ensure precise execution and lasting results—whether it’s moving, renovation, or deep cleaning."
+    },
+    "stress": {
+        "title": "Stress-free experience",
+        "description": "We take care of everything, from planning to execution, so you don’t have to worry. Our team ensures a smooth process, allowing you to enjoy your new space with ease and confidence."
+    }
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "subTitle": "Real stories from satisfied customers who trusted us with their moving, remodeling, and cleaning needs.",
+    "reviews": {
+        "user1": {
+            "role": "Homeowner",
+            "description": "The moving process was incredibly smooth. The team handled everything with care and professionalism. Highly recommended!"
+        },
+        "user2": {
+            "role": "Business Owner",
+            "description": "We hired them for a complete office remodeling, and the results exceeded our expectations. Quality work with great attention to detail!"
+        },
+        "user3": {
+            "role": "Busy Professional",
+            "description": "Their cleaning service is top-notch! Coming home to a spotless space after a long day at work is the best feeling. Will definitely use their services again!"
+        }
+    }
+  },
+  "meta": {
+    "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
+    "description": "Looking for stress-free moving, expert remodeling, or professional cleaning services? We provide top-quality solutions tailored to your needs. Get a free quote today!",
+    "keywords": "moving services, remodeling, home cleaning, professional movers, deep cleaning, home renovation, stress-free moving, expert remodeling, cleaning company, best movers",
+    "robots": "index, follow",
+    "canonical": "https://yourwebsite.com/"
+  },
+  "openGraph": {
+    "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
+    "description": "Get professional moving, remodeling, and cleaning services tailored to your needs. Hassle-free experience guaranteed!",
+    "url": "https://yourwebsite.com/",
+    "image": "https://yourwebsite.com/og-image.jpg",
+    "type": "website"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
+    "description": "Looking for professional moving, remodeling, or cleaning services? We’ve got you covered. Get a free quote today!",
+    "image": "https://yourwebsite.com/twitter-image.jpg",
+    "site": "@YourTwitterHandle"
+  }
+
+}
