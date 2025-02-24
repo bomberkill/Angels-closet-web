@@ -8,8 +8,6 @@ import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import { theme } from '../theme';
 
-import '@mantine/carousel/styles.css';
-
 function App({ Component, pageProps }: AppProps) {
   return (
     <MantineProvider theme={theme}>
