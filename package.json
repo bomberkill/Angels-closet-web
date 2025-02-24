@@ -21,15 +21,14 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@mantine/carousel": "^7.17.0",
     "@mantine/core": "7.17.0",
     "@mantine/hooks": "7.17.0",
     "@next/bundle-analyzer": "^15.1.5",
     "@tabler/icons-react": "^3.28.1",
-    "embla-carousel-react": "^7.1.0",
     "i18next": "^24.2.2",
     "next": "15.1.5",
     "next-i18next": "^15.4.2",
+    "next-sitemap": "^4.2.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-i18next": "^15.4.1"

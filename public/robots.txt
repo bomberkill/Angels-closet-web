@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://angels-closet-web.vercel.app/
+
+# Sitemaps
+Sitemap: https://angels-closet-web.vercel.app/sitemap.xml

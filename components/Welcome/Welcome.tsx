@@ -3,7 +3,7 @@ import { Anchor, Text, Title } from '@mantine/core';
 import classes from './Welcome.module.css';
 
 export function Welcome() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common');
 
   return (
     <>
