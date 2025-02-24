@@ -1,6 +1,3 @@
-export default function ContactUs () {
-    return (
-        <>
-        </>
-    )
+export default function ContactUs() {
+  return <></>;
 }

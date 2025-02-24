@@ -13,9 +13,9 @@ import {
   Text,
 } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
+import logo from '@/public/images/angel logo.png';
 import facebook from '@/public/images/facebook.png';
 import instagram from '@/public/images/instagram.png';
-import logo from '@/public/images/angel logo.png';
 import tiktok from '@/public/images/tiktok.png';
 import twitter from '@/public/images/twitter.png';
 import { theme } from '@/theme';
@@ -113,7 +113,12 @@ export default function Footer() {
                 <Text c="white" ta="center" size="xs">
                   {t('header.follow')}
                 </Text>
-                <Group mt={theme.spacing?.sm} gap={theme.spacing?.xs} align="center" justify="center">
+                <Group
+                  mt={theme.spacing?.sm}
+                  gap={theme.spacing?.xs}
+                  align="center"
+                  justify="center"
+                >
                   {socials.map((social, index) => (
                     <Link key={index} href={social.link}>
                       <NextImage alt="icon" src={social.icon} width={25} height={25} />

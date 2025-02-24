@@ -1,5 +1,5 @@
-import { Anchor, Text, Title } from '@mantine/core';
 import { useTranslation } from 'next-i18next';
+import { Anchor, Text, Title } from '@mantine/core';
 import classes from './Welcome.module.css';
 
 export function Welcome() {
