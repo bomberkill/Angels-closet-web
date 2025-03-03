@@ -1,0 +1,101 @@
+{
+    "title": "Services de déménagement professionnels",
+    "subtitle": "Un déménagement sécurisé, efficace et sans stress pour les particuliers et les entreprises.",
+    "header": {
+        "button": "Contactez-nous"
+    },
+    "advantages": {
+        "title": "Pourquoi nous choisir ?",
+        "subtitle": "Découvrez les principaux avantages de nos services de déménagement.",
+        "secure": {
+            "title": "Déménagement sécurisé",
+            "text": "Nous manipulons vos biens avec soin pour qu'ils arrivent à destination en toute sécurité, sans dommages."
+        },
+        "flexible": {
+            "title": "Horaires flexibles",
+            "text": "Nous nous adaptons à votre emploi du temps en proposant des services de déménagement le week-end et en soirée."
+        },
+        "team": {
+            "title": "Équipe expérimentée",
+            "text": "Nos déménageurs qualifiés s’occupent de tout, de l’emballage au transport, avec efficacité et professionnalisme."
+        },
+        "equipment": {
+            "title": "Matériel professionnel",
+            "text": "Nous utilisons du matériel de déménagement de qualité, y compris des camions capitonnés et des outils de levage, pour un transport en toute sécurité."
+        }
+    },
+    "commitments": {
+        "title": "Nos engagements",
+        "subtitle": "Nous nous engageons pour la qualité, la sécurité et la satisfaction client.",
+        "transparency": {
+            "title": "Transparence",
+            "text": "Nous maintenons une communication claire et honnête avec nos clients sur les prix, les services et les attentes."
+        },
+        "insurance": {
+            "title": "Assurance & sécurité",
+            "text": "Notre équipe est assurée, garantissant la protection de votre propriété et votre tranquillité d’esprit."
+        },
+        "satisfaction": {
+            "title": "Satisfaction client",
+            "text": "Nous nous engageons à dépasser les attentes des clients et à améliorer continuellement nos services."
+        },
+        "punctuality": {
+            "title": "Ponctualité",
+            "text": "Nous respectons votre temps et nous assurons que notre équipe est toujours à l'heure pour chaque rendez-vous."
+        }
+    },
+    "services": {
+        "title": "Nos services de déménagement",
+        "subtitle": "Des solutions complètes adaptées à vos besoins pour un déménagement en toute sérénité.",
+        "local": {
+            "title": "Déménagement local & longue distance",
+            "text": "Que ce soit pour un déménagement dans la même ville ou vers une nouvelle destination, notre équipe assure un transport sécurisé et efficace de vos biens, sans stress ni retard."
+        },
+        "packing": {
+            "title": "Emballage & déballage",
+            "text": "Gagnez du temps et réduisez votre charge de travail grâce à nos services d'emballage et de déballage. Nous emballons soigneusement vos objets pour assurer leur sécurité et facilitons leur installation à votre nouvelle adresse."
+        },
+        "furniture": {
+            "title": "Démontage & remontage de meubles",
+            "text": "Nous prenons en charge le démontage et le remontage de vos meubles encombrants ou complexes, garantissant leur transport en toute sécurité et leur réinstallation sans souci."
+        },
+        "storage": {
+            "title": "Solutions de stockage sécurisé",
+            "text": "Besoin d’un espace de stockage temporaire ou prolongé ? Nos installations sécurisées offrent une solution idéale pour garder vos biens en toute sécurité pendant votre transition."
+        }
+    },
+
+    "FAQ": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Réponses aux questions courantes sur nos services de déménagement.",
+        "question1": "Quels types de déménagements proposez-vous ?",
+        "answer1": "Nous offrons des services de déménagement résidentiel, commercial, longue distance et de relocalisation.",
+        "question2": "Proposez-vous un service d'emballage et de déballage ?",
+        "answer2": "Oui, nous proposons un service complet d'emballage et de déballage pour protéger vos biens pendant le transport.",
+        "question3": "Dois-je fournir mes propres cartons et fournitures ?",
+        "answer3": "Non, nous pouvons fournir tous les cartons, rubans adhésifs et matériaux de protection nécessaires pour votre déménagement.",
+        "question4": "Puis-je programmer un déménagement en dehors des heures normales ?",
+        "answer4": "Oui, nous offrons des horaires flexibles, y compris les week-ends et les jours fériés, selon vos besoins.",
+        "question5": "Comment garantissez-vous la sécurité de mes affaires ?",
+        "answer5": "Nos déménageurs sont formés pour manipuler vos biens avec soin, et nous utilisons des équipements de protection adaptés pour éviter tout dommage."
+    },
+    "meta": {
+        "title": "Services de Déménagement Professionnels | Angel's Closet",
+        "description": "Vous déménagez bientôt ? Nos services de déménagement experts garantissent un transfert sans stress avec emballage, transport et déballage. Réservez dès maintenant !",
+        "keywords": "services de déménagement, relocalisation, déménagement maison, déménagement bureau, services d'emballage, entreprise de déménagement, déménageurs professionnels, déménagement longue distance",
+        "robots": "index, follow",
+        "canonical": "https://angels-closet-web.vercel.app/moving"
+    },
+    "openGraph": {
+        "title": "Services de Déménagement Professionnels | Angel's Closet",
+        "description": "Déménagez en toute sérénité ! Nos services de déménagement prennent en charge tout, de l'emballage au transport. Obtenez un devis gratuit dès aujourd'hui !",
+        "url": "https://angels-closet-web.vercel.app/moving",
+        "image": "https://angels-closet-web.vercel.app/images/deliver.png",
+        "type": "website"
+    },
+    "twitter": {
+        "title": "Services de Déménagement Professionnels | Angel's Closet",
+        "description": "Besoin d'aide pour déménager ? Nos déménageurs experts assurent un service de qualité, incluant emballage et transport. Réservez dès maintenant !",
+        "image": "https://angels-closet-web.vercel.app/images/deliver.png"
+    }
+}

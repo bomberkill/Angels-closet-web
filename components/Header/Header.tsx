@@ -19,14 +19,14 @@ import {
 } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { theme } from '@/theme';
-import logo from '../../public/images/angel logo.png';
+import logo from '../../public/images/angel-logo.png';
 import classes from './Header.module.css';
 
 export default function Header({ color, hide }: { color?: boolean; hide?: boolean }) {
   const { t, i18n } = useTranslation('common');
   const [scrolled, setScrolled] = useState(false);
   const router = useRouter();
-  const smallScreen = useMediaQuery('(max-width: 793px)');
+  const smallScreen = useMediaQuery('(max-width: 824px)');
   const extraSmallScreen = useMediaQuery('(max-width: 575px)');
   const [opened, { open, close }] = useDisclosure();
   const changeLanguage = (lang: 'en' | 'fr') => {
@@ -62,21 +62,21 @@ export default function Header({ color, hide }: { color?: boolean; hide?: boolea
       },
       {
         text: t('header.sections.contact'),
-        link: '/contact',
+        link: '/contact-us',
       },
     ];
     const subLinks = [
       {
         text: t('header.sections.section.subLinks.moving'),
-        link: { pathname: '/posts', query: { section: 'articles' } },
+        link: '/moving',
       },
       {
         text: t('header.sections.section.subLinks.remodeling'),
-        link: { pathname: '/posts', query: { section: 'news' } },
+        link: '/remodeling',
       },
       {
         text: t('header.sections.section.subLinks.cleaning'),
-        link: { pathname: '/posts', query: { section: 'breves' } },
+        link: '/cleaning',
       },
     ];
     const links = subLinks.map((sublink, linkIndex) => (
@@ -101,7 +101,8 @@ export default function Header({ color, hide }: { color?: boolean; hide?: boolea
                       <Text
                         style={{ cursor: 'pointer' }}
                         size="md"
-                        c={scrolled ? theme.colors?.black?.[3] : theme.colors?.white?.[0]}
+                        // c={scrolled ? theme.colors?.black?.[3] : color ? theme.colors?.black?.[3] : theme.colors?.white?.[0]}
+                        c={scrolled || color ? theme.colors?.black?.[3] : theme.colors?.white?.[0]}
                         fw={700}
                       >
                         {item.text}
@@ -115,7 +116,7 @@ export default function Header({ color, hide }: { color?: boolean; hide?: boolea
                       c={
                         router.pathname === item.link
                           ? theme.colors?.blue?.[0]
-                          : scrolled
+                          : scrolled || color
                             ? theme.colors?.black?.[3]
                             : theme.colors?.white?.[0]
                       }
@@ -205,7 +206,7 @@ export default function Header({ color, hide }: { color?: boolean; hide?: boolea
                     c={
                       i18n.language === 'fr'
                         ? theme.colors?.blue?.[0]
-                        : scrolled
+                        : scrolled || color
                           ? theme.colors?.black?.[3]
                           : theme.colors?.white?.[0]
                     }
@@ -215,7 +216,7 @@ export default function Header({ color, hide }: { color?: boolean; hide?: boolea
                   </Text>
                   <Text
                     size="sm"
-                    c={scrolled ? theme.colors?.black?.[3] : theme.colors?.white?.[0]}
+                    c={scrolled || color ? theme.colors?.black?.[3] : theme.colors?.white?.[0]}
                   >
                     |
                   </Text>
@@ -226,7 +227,7 @@ export default function Header({ color, hide }: { color?: boolean; hide?: boolea
                     c={
                       i18n.language === 'en'
                         ? theme.colors?.blue?.[0]
-                        : scrolled
+                        : scrolled || color
                           ? theme.colors?.black?.[3]
                           : theme.colors?.white?.[0]
                     }

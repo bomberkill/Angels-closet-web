@@ -1,0 +1,102 @@
+{
+    "title": "Professional moving services",
+    "subtitle": "Safe, efficient, and stress-free relocation for homes and businesses.",
+    "header": {
+        "button": "Contact us"
+    },
+    "advantages": {
+        "title": "Why choose us?",
+        "subtitle": "Discover the key benefits of our moving services.",
+        "secure": {
+            "title": "Safe and secure moving",
+            "text": "We handle your belongings with care, ensuring they arrive at their destination safely and undamaged."
+        },
+        "flexible": {
+            "title": "Flexible scheduling",
+            "text": "We work around your schedule, offering moving services on weekends and after-hours for your convenience."
+        },
+        "team": {
+            "title": "Experienced moving team",
+            "text": "Our skilled movers are trained to handle everything from packing to transportation with efficiency and professionalism."
+        },
+        "equipment": {
+            "title": "Professional equipment",
+            "text": "We use high-quality moving equipment, including padded trucks and lifting tools, to ensure a smooth relocation."
+        }
+    },
+    "commitments": {
+        "title": "Our commitments",
+        "subtitle": "We are dedicated to quality, safety, and customer satisfaction.",
+        "transparency": {
+            "title": "Transparency",
+            "text": "We maintain clear and honest communication with our clients regarding pricing, services, and expectations."
+        },
+        "insurance": {
+            "title": "Insurance & safety",
+            "text": "Our team is insured, ensuring protection for your property and peace of mind."
+        },
+        "satisfaction": {
+            "title": "Customer satisfaction",
+            "text": "We are committed to exceeding customer expectations and continuously improving our services."
+        },
+        "punctuality": {
+            "title": "Punctuality",
+            "text": "We respect your time and ensure our team is always on schedule for every appointment."
+        }
+    },
+    "services": {
+        "title": "Our moving services",
+        "subtitle": "Comprehensive moving solutions tailored to your needs, ensuring a smooth and stress-free relocation.",
+        "local": {
+            "title": "Local & long-distance moving",
+            "text": "Whether you're moving across town or to a new city, our professional moving team ensures a hassle-free experience. We handle transportation with care, making sure your belongings arrive safely and on time."
+        },
+        "packing": {
+            "title": "Packing & unpacking",
+            "text": "Save time and reduce stress with our packing and unpacking services. Our team carefully wraps, boxes, and labels your items, ensuring they are secure during transport and efficiently unpacked at your new location."
+        },
+        "furniture": {
+            "title": "Furniture disassembly & reassembly",
+            "text": "Large or complex furniture? No problem! We expertly disassemble and reassemble your furniture, making it easier to transport while ensuring it remains in perfect condition."
+        },
+        "storage": {
+            "title": "Secure storage solutions",
+            "text": "Need extra space during your move? Our secure storage facilities provide a safe place for your belongings, whether you need short-term or long-term storage options."
+        }
+    },
+
+    "FAQ": {
+        "title": "Frequently asked questions",
+        "subtitle": "Answers to common questions about our moving services.",
+        "question1": "What types of moving services do you offer?",
+        "answer1": "We provide residential, commercial, long-distance, and relocation moving services.",
+        "question2": "Do you offer packing and unpacking services?",
+        "answer2": "Yes, we offer a full packing and unpacking service to protect your belongings during transport.",
+        "question3": "Do I need to provide my own boxes and supplies?",
+        "answer3": "No, we can supply all the necessary boxes, packing tape, and protective materials for your move.",
+        "question4": "Can I schedule a move outside regular hours?",
+        "answer4": "Yes, we offer flexible scheduling, including weekends and holidays, based on your needs.",
+        "question5": "How do you ensure the safety of my belongings?",
+        "answer5": "Our movers are trained to handle your items with care, and we use protective equipment to prevent any damage."
+    },
+    "meta": {
+        "title": "Professional Moving Services | Angel's Closet",
+        "description": "Moving soon? Our expert moving services ensure a hassle-free relocation with packing, transportation, and unpacking. Book your move today!",
+        "keywords": "moving services, relocation services, home moving, office moving, packing services, moving company, professional movers, long-distance moving",
+        "robots": "index, follow",
+        "canonical": "https://angels-closet-web.vercel.app/moving"
+    },
+  "openGraph": {
+        "title": "Professional Moving Services | Angel's Closet",
+        "description": "Relocate with ease! Our professional moving services handle everything from packing to transport. Get a free quote today!",
+        "url": "https://angels-closet-web.vercel.app/moving",
+        "image": "https://angels-closet-web.vercel.app/images/deliver.png",
+        "type": "website"
+    },
+  "twitter": {
+        "title": "Professional Moving Services | Angel's Closet",
+        "description": "Need help moving? Our expert movers provide top-quality relocation services, including packing and transport. Book now!",
+        "image": "https://angels-closet-web.vercel.app/images/moving.png"
+    }
+
+}

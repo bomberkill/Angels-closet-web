@@ -1,0 +1,101 @@
+{
+    "title": "Services de nettoyage professionnels",
+    "subtitle": "Des solutions fiables et écologiques pour les maisons et les entreprises.",
+    "header": {
+        "button": "Contactez-nous"
+    },
+    "advantages": {
+        "title": "Pourquoi Nous choisir ?",
+        "subtitle": "Découvrez les principaux avantages de nos services de nettoyage.",
+        "product": {
+            "title": "Produits naturels",
+            "text": "Nous utilisons des solutions de nettoyage écologiques, sûres pour votre famille, vos animaux et l’environnement."
+        },
+        "flexible": {
+            "title": "Horaires flexibles",
+            "text": "Notre équipe s’adapte à votre emploi du temps en proposant des services de nettoyage à votre convenance, y compris le week-end."
+        },
+        "cleaner": {
+            "title": "Nettoyeurs professionnels",
+            "text": "Des professionnels formés et expérimentés garantissent un nettoyage impeccable et en profondeur à chaque intervention."
+        },
+        "tools": {
+            "title": "Outils de nettoyage professionnels",
+            "text": "Nous utilisons du matériel de qualité professionnelle pour garantir un nettoyage efficace et en profondeur."
+        }
+    },
+    "commitments": {
+        "title": "Nos engagements",
+        "subtitle": "Nous nous engageons pour la qualité, la sécurité et la satisfaction client.",
+        "transparency": {
+            "title": "Transparence",
+            "text": "Nous maintenons une communication claire et honnête avec nos clients sur les prix, les services et les attentes."
+        },
+        "insurance": {
+            "title": "Assurance & sécurité",
+            "text": "Notre équipe est assurée, garantissant la protection de votre propriété et votre tranquillité d’esprit."
+        },
+        "satisfaction": {
+            "title": "Satisfaction client",
+            "text": "Nous nous engageons à dépasser les attentes des clients et à améliorer continuellement nos services."
+        },
+        "punctuality": {
+            "title": "Ponctualité",
+            "text": "Nous respectons votre temps et nous assurons que notre équipe est toujours à l'heure pour chaque rendez-vous."
+        }
+    },
+    "services": {
+        "title": "Nos services",
+        "subtitle": "Des solutions de nettoyage complètes adaptées à vos besoins, pour un environnement impeccable et confortable.",
+        "renovation": {
+            "title": "Nettoyage après rénovation",
+            "text": "Après des travaux de rénovation, la poussière, les débris et les résidus de construction peuvent rendre votre espace inconfortable. Notre service de nettoyage après rénovation élimine toutes les traces de saleté, laissant votre maison ou bureau propre, sain et prêt à être utilisé."
+        },
+        "move": {
+            "title": "Nettoyage avant & après déménagement",
+            "text": "Un déménagement peut être stressant, mais un nettoyage approfondi garantit une transition en douceur. Nous préparons votre nouveau logement en effectuant un nettoyage en profondeur avant votre emménagement et nous laissons votre ancien espace impeccable pour les prochains occupants, en nous concentrant sur chaque détail, des tapis aux appareils électroménagers."
+        },
+        "office": {
+            "title": "Nettoyage de bureaux & commerces",
+            "text": "Un environnement de travail propre est essentiel pour la productivité et le bien-être des employés. Nos services de nettoyage de bureaux comprennent le dépoussiérage, l’aspiration, la désinfection des espaces communs et le nettoyage des surfaces pour offrir un cadre professionnel et sain à votre équipe et à vos clients."
+        },
+        "cleaning": {
+            "title": "Nettoyage de maison",
+            "text": "Que vous ayez besoin d’un entretien régulier ou d’un nettoyage en profondeur, notre service de nettoyage de maison est conçu pour garder votre intérieur frais, hygiénique et accueillant. Nous nous occupons du dépoussiérage, de l’aspiration, du nettoyage des salles de bains et de la cuisine, en utilisant des produits écologiques pour un espace sûr et sain."
+        },
+        "roofs": {
+            "title": "Nettoyage de jardins, clôtures, murs & toitures",
+            "text": "Les espaces extérieurs accumulent au fil du temps de la saleté, de la mousse et des taches dues aux intempéries. Notre service de lavage haute pression redonne de l’éclat à vos allées de jardin, clôtures, murs et toitures en éliminant la crasse, la moisissure et autres dépôts, contribuant ainsi à préserver et embellir l’extérieur de votre propriété."
+        }
+    },
+
+    "FAQ": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Réponses aux questions courantes sur nos services.",
+        "question1": "Quels produits de nettoyage utilisez-vous ?",
+        "answer1": "Nous utilisons des produits de nettoyage écologiques et non toxiques, sûrs pour tous les environnements.",
+        "question2": "Puis-je programmer un nettoyage en dehors des heures normales ?",
+        "answer2": "Oui, nous proposons des horaires flexibles, y compris les week-ends et en soirée sur demande.",
+        "question3": "Apportez-vous votre propre matériel ?",
+        "answer3": "Oui, notre équipe est entièrement équipée avec des outils et produits de nettoyage professionnels."
+    },
+    "meta": {
+    "title": "Services de Nettoyage Experts pour Maisons & Bureaux | Angel's Closet",
+    "description": "Besoin d’une maison ou d’un bureau impeccable ? Nos services de nettoyage professionnels incluent le nettoyage en profondeur, après rénovation et commercial. Réservez maintenant !",
+    "keywords": "services de nettoyage, nettoyage maison, nettoyage bureau, nettoyage en profondeur, nettoyage après déménagement, nettoyage après rénovation, nettoyage commercial, nettoyeurs professionnels",
+    "robots": "index, follow",
+    "canonical": "https://angels-closet-web.vercel.app/nettoyage"
+    },
+    "openGraph": {
+    "title": "Services de Nettoyage Experts pour Maisons & Bureaux | Angel's Closet",
+    "description": "Des services de nettoyage professionnels pour garder votre maison et votre espace de travail frais et impeccables. Réservez une séance dès aujourd'hui !",
+    "url": "https://angels-closet-web.vercel.app/nettoyage",
+    "image": "https://angels-closet-web.vercel.app/images/cleaner.png",
+    "type": "website"
+    },
+    "twitter": {
+    "title": "Services de Nettoyage Experts pour Maisons & Bureaux | Angel's Closet",
+    "description": "Besoin d'un nettoyage professionnel ? Nos experts assurent un service de nettoyage en profondeur, après déménagement et commercial de haute qualité. Obtenez un devis dès maintenant !",
+    "image": "https://angels-closet-web.vercel.app/images/cleaner.png"
+    }
+}

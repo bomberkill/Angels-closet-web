@@ -1,0 +1,101 @@
+{
+    "title": "Services de rénovation experts",
+    "subtitle": "Transformez votre maison ou votre bureau avec un design innovant et un savoir-faire de qualité.",
+    "header": {
+        "button": "Contactez-nous"
+    },
+    "advantages": {
+        "title": "Pourquoi nous choisir ?",
+        "subtitle": "Découvrez les principaux avantages de nos services de rénovation.",
+        "quality": {
+            "title": "Travail de qualité",
+            "text": "Nous utilisons des matériaux haut de gamme et des techniques modernes pour garantir des rénovations durables et esthétiques."
+        },
+        "flexible": {
+            "title": "Planning flexible",
+            "text": "Nous nous adaptons à votre emploi du temps pour minimiser les interruptions et assurer une rénovation en toute tranquillité."
+        },
+        "expertise": {
+            "title": "Équipe expérimentée",
+            "text": "Nos professionnels qualifiés prennent en charge tous les aspects de votre projet, de la conception à la finition."
+        },
+        "custom": {
+            "title": "Solutions sur mesure",
+            "text": "Chaque projet est unique. Nous personnalisons nos services pour répondre parfaitement à vos besoins et à votre vision."
+        }
+    },
+    "commitments": {
+        "title": "Nos engagements",
+        "subtitle": "Nous nous engageons pour la qualité, la sécurité et la satisfaction client.",
+        "transparency": {
+            "title": "Transparence",
+            "text": "Nous maintenons une communication claire et honnête avec nos clients sur les prix, les services et les attentes."
+        },
+        "insurance": {
+            "title": "Assurance & sécurité",
+            "text": "Notre équipe est assurée, garantissant la protection de votre propriété et votre tranquillité d’esprit."
+        },
+        "satisfaction": {
+            "title": "Satisfaction client",
+            "text": "Nous nous engageons à dépasser les attentes des clients et à améliorer continuellement nos services."
+        },
+        "punctuality": {
+            "title": "Ponctualité",
+            "text": "Nous respectons votre temps et nous assurons que notre équipe est toujours à l'heure pour chaque rendez-vous."
+        }
+    },
+    "services": {
+        "title": "Nos services de rénovation",
+        "subtitle": "Des solutions de rénovation complètes adaptées à vos besoins, garantissant des espaces beaux et fonctionnels.",
+        "home": {
+            "title": "Rénovation et rajeunissement de maison",
+            "text": "Transformez votre espace de vie avec nos services d'experts en rénovation. Que ce soit une transformation complète de votre maison ou des rénovations spécifiques de pièces, nous donnons vie à votre vision avec précision et soin."
+        },
+        "kitchen": {
+            "title": "Améliorations de cuisine et salle de bain",
+            "text": "Améliorez le cœur de votre maison avec nos rénovations de cuisine et salle de bain. Des designs modernes aux aménagements fonctionnels, nous créons des espaces qui allient style et praticité."
+        },
+        "flooring": {
+            "title": "Installation de revêtements de sol",
+            "text": "Vous cherchez de nouveaux revêtements de sol ? Notre service d'installation couvre tout, du parquet aux carreaux, en assurant des finitions de haute qualité qui durent."
+        },
+        "painting": {
+            "title": "Peinture et pose de papier peint",
+            "text": "Apportez de la couleur et du caractère à votre maison avec nos services professionnels de peinture et de pose de papier peint. Nous assurons des finitions lisses et des résultats magnifiques, offrant à vos pièces un look frais et moderne."
+        }
+    },
+
+    "FAQ": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Réponses aux questions courantes sur nos services de rénovation.",
+        "question1": "Quels types de services de rénovation proposez-vous ?",
+        "answer1": "Nous sommes spécialisés dans la rénovation de maisons et de bureaux, y compris la rénovation de cuisines et salles de bain, le revêtement de sol, la peinture et la refonte complète des intérieurs.",
+        "question2": "Proposez-vous des consultations en design ?",
+        "answer2": "Oui, nous offrons des consultations professionnelles pour vous aider à concevoir et personnaliser votre projet de rénovation selon vos goûts et vos besoins.",
+        "question3": "Combien de temps dure un projet de rénovation ?",
+        "answer3": "La durée dépend de l'ampleur des travaux. Nous fournissons un calendrier détaillé après l’évaluation de votre projet.",
+        "question4": "Puis-je rester chez moi pendant les travaux de rénovation ?",
+        "answer4": "Dans la plupart des cas, oui. Cependant, pour des rénovations importantes, une relocalisation temporaire peut être recommandée pour votre sécurité et votre confort.",
+        "question5": "Prenez-vous en charge les permis et autorisations ?",
+        "answer5": "Oui, nous nous occupons de toutes les démarches administratives et veillons à respecter les réglementations locales en vigueur."
+    },
+    "meta": {
+        "title": "Services de Rénovation Professionnels | Angel's Closet",
+        "description": "Transformez votre espace avec nos services de rénovation experts. Du design à la finition, nous créons des intérieurs modernes et fonctionnels. Demandez un devis gratuit !",
+        "keywords": "services de rénovation, rénovation maison, rénovation bureau, aménagement intérieur, travaux de construction, rénovation cuisine, rénovation salle de bain, entrepreneurs en rénovation",
+        "robots": "index, follow",
+        "canonical": "https://angels-closet-web.vercel.app/remodeling"
+    },
+    "openGraph": {
+        "title": "Services de Rénovation Professionnels | Angel's Closet",
+        "description": "Rénovez votre maison ou votre bureau avec nos experts en rénovation. Conception sur mesure, travaux de qualité et finitions impeccables. Contactez-nous dès maintenant !",
+        "url": "https://angels-closet-web.vercel.app/remodeling",
+        "image": "https://angels-closet-web.vercel.app/images/remodeler.png",
+        "type": "website"
+    },
+    "twitter": {
+        "title": "Services de Rénovation Professionnels | Angel's Closet",
+        "description": "Besoin de rénover votre intérieur ? Nos experts assurent des travaux de qualité pour moderniser et optimiser votre espace. Obtenez un devis dès aujourd'hui !",
+        "image": "https://angels-closet-web.vercel.app/images/remodeler.png"
+    }
+}

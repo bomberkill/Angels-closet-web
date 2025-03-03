@@ -25,16 +25,18 @@ import {
 } from '@mantine/core';
 import { useIntersection, useMediaQuery } from '@mantine/hooks';
 import CallToAction from '@/components/CTA/CallToAction';
-import blob from '@/public/images/blob.png';
-import blob2 from '@/public/images/blob2.png';
-import cleaningImage from '@/public/images/cleaning.png';
+import cleaner from '@/public/images/cleaner.png';
+import mover from '@/public/images/deliver.png';
 import play from '@/public/images/play-button.png';
 import quality from '@/public/images/quality.png';
-// import stress from '@/public/images/quality.png';
+import remodeler from '@/public/images/remodeler.png';
 import solution from '@/public/images/solution.png';
+import stress from '@/public/images/stress.png';
 import user1 from '@/public/images/user1.png';
 import user2 from '@/public/images/user2.png';
 import user3 from '@/public/images/user3.png';
+// import vector2 from '@/public/images/Vector2.svg';
+// import vector3 from '@/public/images/Vector3.svg';
 import { theme } from '@/theme';
 
 export default function HomePage() {
@@ -125,7 +127,7 @@ export default function HomePage() {
       if (isPlaying) {
         videoRef.current.pause();
       } else {
-        videoRef.current.play().catch((err) => console.error('Autoplay failed:', err));
+        videoRef.current.play();
       }
       setIsPlaying(!isPlaying);
     }
@@ -134,22 +136,22 @@ export default function HomePage() {
     {
       title: t('service.moving.title'),
       description: t('service.moving.description'),
-      image: cleaningImage, // Replace with actual image path
-      link: '/services/moving',
+      image: mover, // Replace with actual image path
+      link: '/moving',
       buttonText: t('service.moving.buttonText'),
     },
     {
       title: t('service.remodeling.title'),
       description: t('service.remodeling.description'),
-      image: cleaningImage, // Replace with actual image path
-      link: '/services/remodeling',
+      image: remodeler, // Replace with actual image path
+      link: '/remodeling',
       buttonText: t('service.remodeling.buttonText'),
     },
     {
       title: t('service.cleaning.title'),
       description: t('service.cleaning.description'),
-      image: cleaningImage, // Replace with actual image path
-      link: '/services/cleaning',
+      image: cleaner, // Replace with actual image path
+      link: '/cleaning',
       buttonText: t('service.cleaning.buttonText'),
     },
   ];
@@ -187,7 +189,7 @@ export default function HomePage() {
     {
       title: t('about.stress.title'),
       description: t('about.stress.description'),
-      image: quality,
+      image: stress,
     },
   ];
   return (
@@ -215,9 +217,9 @@ export default function HomePage() {
         <meta name="twitter:site" content={t('twitter.site')} />
       </Head>
       <Box pos="relative" style={{ overflow: 'hidden' }}>
-        <Image
+        {/* <Image
           component={NextImage}
-          src={blob}
+          src={vector2}
           alt="blob"
           // layout="co"
           // objectFit="cover"
@@ -231,18 +233,18 @@ export default function HomePage() {
         />
         <Image
           component={NextImage}
-          src={blob2}
+          src={vector3}
           alt="blob2"
           // layout="co"
           // objectFit="cover"
           // objectPosition="center"
-          w="100%"
-          h={{ base: 700, sm: '40%' }}
+          // w="100%"
+          // h={{ base: 700, sm: '40%' }}
           pos="absolute"
           bottom={-100}
           left={{ base: 200, sm: 400 }}
           style={{ zIndex: -1, objectFit: 'contain' }}
-        />
+        /> */}
         {/* <Header/> */}
         <Box
           ref={heroRef}
@@ -359,18 +361,19 @@ export default function HomePage() {
             </Box>
           </Center>
         </Box>
-        <Container style={{ zIndex: 3 }} py={theme.spacing?.lg} size="80%">
-          <Title c={theme.colors?.yellow?.[1]} order={2} ta="center" mt="xl">
+        <Container py={theme.spacing?.xl} size="80%">
+          <Title c={theme.colors?.yellow?.[1]} order={2} ta="center">
             {t('service.title')}
           </Title>
-          <Text my={theme.spacing?.sm} c="dimmed" ta="center" size="lg" maw={580} mx="auto">
+          <Text my={theme.spacing?.sm} c="dimmed" ta="center" size="lg" mx="auto">
             {t('service.subTitle')}
           </Text>
-          <Box mih={{ base: 1000, sm: 700, md: 300 }} pos="relative" mt={theme.spacing?.sm}>
+          <Box mih={{ base: 1000, sm: 700, md: 300 }} pos="relative" py={theme.spacing?.lg}>
             <Grid align="center" justify="center" gutter={theme.spacing?.md}>
               {services.map((service, index) => (
                 <GridCol ref={serviceRef} span={{ base: 12, sm: 6, md: 4 }} key={index}>
                   <Transition
+                    key={index}
                     mounted={serviceTransition}
                     keepMounted
                     transition={
@@ -432,17 +435,17 @@ export default function HomePage() {
                         >
                           {(groupStyles) => (
                             <Group style={groupStyles} mt={theme.spacing?.sm} justify="center">
-                              <Link href={service.link} style={{ textDecoration: 'none' }}>
-                                <Button
-                                  size="md"
-                                  variant="gradient"
-                                  gradient={{ from: 'pink', to: 'yellow' }}
-                                >
-                                  <Text size="sm" fw={700} c="white.0">
-                                    {service.buttonText}
-                                  </Text>
-                                </Button>
-                              </Link>
+                              <Button
+                                component={Link}
+                                href={service.link}
+                                size="md"
+                                variant="gradient"
+                                gradient={{ from: 'pink', to: 'yellow' }}
+                              >
+                                <Text size="sm" fw={700} c="white.0">
+                                  {service.buttonText}
+                                </Text>
+                              </Button>
                             </Group>
                           )}
                         </Transition>
@@ -454,27 +457,96 @@ export default function HomePage() {
             </Grid>
           </Box>
         </Container>
-        <Container style={{ zIndex: 3 }} py={theme.spacing?.lg} size="80%">
-          <Title c={theme.colors?.yellow?.[1]} order={2} ta="center" mt="xl">
-            {t('about.title')}
-          </Title>
-          <Text my={theme.spacing?.sm} c="dimmed" ta="center" size="lg" mx="auto">
-            {t('about.subTitle')}
-          </Text>
-          <Box mih={{ base: 1000, sm: 700, md: 300 }} pos="relative" mt={theme.spacing?.sm}>
-            {abouts.map((about, index) => (
-              <Grid
-                ref={aboutRef}
-                my={theme.spacing?.sm}
-                py={theme.spacing?.sm}
-                key={index}
-                align="center"
-                justify="center"
-                gutter={theme.spacing?.lg}
-              >
-                <GridCol span={{ base: 12, sm: index % 2 === 0 ? 8 : 4 }}>
-                  {!isSmallScreen ? (
-                    <Stack justify="center" align="center">
+        <Box py={theme.spacing?.xl} bg="#f6fafe">
+          <Container size="80%">
+            <Title c={theme.colors?.yellow?.[1]} order={2} ta="center">
+              {t('about.title')}
+            </Title>
+            <Text my={theme.spacing?.sm} c="dimmed" ta="center" size="lg" mx="auto">
+              {t('about.subTitle')}
+            </Text>
+            <Box mih={{ base: 1000, sm: 700, md: 300 }} pos="relative" mt={theme.spacing?.sm}>
+              {abouts.map((about, index) => (
+                <Grid
+                  ref={aboutRef}
+                  py={theme.spacing?.sm}
+                  key={index}
+                  align="center"
+                  justify="center"
+                  gutter={theme.spacing?.lg}
+                >
+                  <GridCol span={{ base: 12, sm: index % 2 === 0 ? 8 : 4 }}>
+                    {!isSmallScreen ? (
+                      <Stack justify="center" align="center">
+                        <Transition
+                          mounted={aboutTransition}
+                          keepMounted
+                          transition="slide-right"
+                          duration={3000}
+                          timingFunction="ease"
+                        >
+                          {(styles) => (
+                            <Box
+                              style={[
+                                {
+                                  display: 'flex',
+                                  flexDirection: 'row',
+                                  justifyContent: 'center',
+                                  ...styles,
+                                },
+                              ]}
+                              w="100%"
+                              h="100%"
+                            >
+                              <Image
+                                component={NextImage}
+                                w={220}
+                                h={220}
+                                src={about.image}
+                                alt="cleaning image"
+                              />
+                            </Box>
+                          )}
+                        </Transition>
+                        <Transition
+                          mounted={aboutTransition}
+                          keepMounted
+                          transition="slide-left"
+                          duration={3000}
+                          timingFunction="ease"
+                        >
+                          {(styles) => (
+                            <Box style={styles}>
+                              <Title c={theme.colors?.yellow?.[1]} order={3} ta="center">
+                                {about.title}
+                              </Title>
+                              <Text c="dimmed" ta="center" size="lg">
+                                {about.description}
+                              </Text>
+                            </Box>
+                          )}
+                        </Transition>
+                      </Stack>
+                    ) : index % 2 === 0 ? (
+                      <Transition
+                        mounted={aboutTransition}
+                        keepMounted
+                        transition="slide-right"
+                        duration={3000}
+                        timingFunction="ease"
+                      >
+                        {(styles) => (
+                          <Box style={styles}>
+                            <Title c={theme.colors?.yellow?.[1]} order={3} ta="end">
+                              {about.title}
+                            </Title>
+                            <Text c="dimmed" ta="end" size="lg">
+                              {about.description}
+                            </Text>
+                          </Box>
+                        )}
+                      </Transition>
+                    ) : (
                       <Transition
                         mounted={aboutTransition}
                         keepMounted
@@ -484,14 +556,12 @@ export default function HomePage() {
                       >
                         {(styles) => (
                           <Box
-                            style={[
-                              {
-                                display: 'flex',
-                                flexDirection: 'row',
-                                justifyContent: 'center',
-                                ...styles,
-                              },
-                            ]}
+                            style={{
+                              display: 'flex',
+                              flexDirection: 'row',
+                              justifyContent: 'end',
+                              ...styles,
+                            }}
                             w="100%"
                             h="100%"
                           >
@@ -505,223 +575,160 @@ export default function HomePage() {
                           </Box>
                         )}
                       </Transition>
-                      <Transition
-                        mounted={aboutTransition}
-                        keepMounted
-                        transition="slide-left"
-                        duration={3000}
-                        timingFunction="ease"
-                      >
-                        {(styles) => (
-                          <Box style={styles}>
-                            <Title c={theme.colors?.yellow?.[1]} order={3} ta="center">
-                              {about.title}
-                            </Title>
-                            <Text c="dimmed" ta="center" size="lg">
-                              {about.description}
-                            </Text>
-                          </Box>
-                        )}
-                      </Transition>
-                    </Stack>
-                  ) : index % 2 === 0 ? (
-                    <Transition
-                      mounted={aboutTransition}
-                      keepMounted
-                      transition="slide-right"
-                      duration={3000}
-                      timingFunction="ease"
-                    >
-                      {(styles) => (
-                        <Box style={styles}>
-                          <Title c={theme.colors?.yellow?.[1]} order={3} ta="end">
-                            {about.title}
-                          </Title>
-                          <Text c="dimmed" ta="end" size="lg">
-                            {about.description}
-                          </Text>
-                        </Box>
-                      )}
-                    </Transition>
-                  ) : (
-                    <Transition
-                      mounted={aboutTransition}
-                      keepMounted
-                      transition="slide-right"
-                      duration={3000}
-                      timingFunction="ease"
-                    >
-                      {(styles) => (
-                        <Box
-                          style={{
-                            display: 'flex',
-                            flexDirection: 'row',
-                            justifyContent: 'end',
-                            ...styles,
-                          }}
-                          w="100%"
-                          h="100%"
-                        >
-                          <Image
-                            component={NextImage}
-                            w={220}
-                            h={220}
-                            src={about.image}
-                            alt="cleaning image"
-                          />
-                        </Box>
-                      )}
-                    </Transition>
-                  )}
-                </GridCol>
-                {isSmallScreen && (
-                  <GridCol span={{ base: 12, sm: index % 2 !== 0 ? 8 : 4 }}>
-                    {index % 2 !== 0 ? (
-                      <Transition
-                        mounted={aboutTransition}
-                        keepMounted
-                        transition="slide-left"
-                        duration={3000}
-                        timingFunction="ease"
-                      >
-                        {(styles) => (
-                          <Box style={styles}>
-                            <Title c={theme.colors?.yellow?.[1]} order={3} ta="start">
-                              {about.title}
-                            </Title>
-                            <Text c="dimmed" ta="start" size="lg">
-                              {about.description}
-                            </Text>
-                          </Box>
-                        )}
-                      </Transition>
-                    ) : (
-                      <Transition
-                        mounted={aboutTransition}
-                        keepMounted
-                        transition="slide-left"
-                        duration={3000}
-                        timingFunction="ease"
-                      >
-                        {(styles) => (
-                          <Box style={styles} w="100%" h="100%">
-                            <AspectRatio>
-                              <Image
-                                component={NextImage}
-                                w={220}
-                                h={220}
-                                src={about.image}
-                                alt="cleaning image"
-                              />
-                            </AspectRatio>
-                          </Box>
-                        )}
-                      </Transition>
                     )}
                   </GridCol>
-                )}
-              </Grid>
-            ))}
-          </Box>
-        </Container>
-        <Container style={{ zIndex: 3 }} py={theme.spacing?.lg} size="80%">
-          <Title c={theme.colors?.yellow?.[1]} order={2} ta="center" mt="xl">
-            {t('testimonials.title')}
-          </Title>
-          <Text my={theme.spacing?.sm} c="dimmed" ta="center" size="lg" mx="auto">
-            {t('testimonials.subTitle')}
-          </Text>
-          <Grid
-            mih={{ base: 1000, sm: 700, md: 300 }}
-            my={theme.spacing?.xl}
-            align="center"
-            justify="center"
-            gutter={theme.spacing?.md}
-          >
-            {testimonials.map((testimonial, index) => (
-              <GridCol
-                ref={testimonialRef}
-                mt={theme.spacing?.xl}
-                pos="relative"
-                key={index}
-                span={{ base: 12, sm: 6, md: 4 }}
-              >
-                <Transition
-                  mounted={testimonialTransition}
-                  keepMounted
-                  transition="fade-up"
-                  duration={3000}
-                  timingFunction="ease"
-                >
-                  {(styles) => (
-                    <Box style={styles}>
-                      <Box
-                        mt={theme.spacing?.md}
-                        style={{ display: 'flex', justifyContent: 'center' }}
-                      >
-                        <AspectRatio
-                          style={{
-                            border: 'black',
-                            backgroundColor: 'Highlight',
-                            borderRadius: 50,
-                          }}
-                          mt={-50}
-                          pos="absolute"
-                          w={100}
-                          h={100}
+                  {isSmallScreen && (
+                    <GridCol span={{ base: 12, sm: index % 2 !== 0 ? 8 : 4 }}>
+                      {index % 2 !== 0 ? (
+                        <Transition
+                          mounted={aboutTransition}
+                          keepMounted
+                          transition="slide-left"
+                          duration={3000}
+                          timingFunction="ease"
                         >
-                          <NextImage
-                            style={{ width: '100%', height: '100%', borderRadius: 50 }}
-                            src={testimonial.image}
-                            alt=""
-                          />
-                        </AspectRatio>
-                      </Box>
-                      <Center>
-                        <Paper
-                          // className={classes.paper}
-                          // withBorder
-                          pt={theme.spacing?.xl}
-                          style={{
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                          }}
-                          shadow="xl"
-                          p={theme.spacing?.md}
-                          // h={200}
-                          // w={261}
-                        >
-                          <Box w="100%">
-                            <Box
-                              mih={142}
-                              style={{
-                                display: 'flex',
-                                justifyContent: 'center',
-                                alignItems: 'center',
-                              }}
-                            >
-                              <Text fs="italic" fz="sm" ta="center">
-                                {testimonial.desc}
+                          {(styles) => (
+                            <Box style={styles}>
+                              <Title c={theme.colors?.yellow?.[1]} order={3} ta="start">
+                                {about.title}
+                              </Title>
+                              <Text c="dimmed" ta="start" size="lg">
+                                {about.description}
                               </Text>
                             </Box>
-                            <Text fz="md" fw="bold" pt={theme.spacing?.md} ta="center">
-                              {testimonial.title}
-                            </Text>
-                            <Text fz="xs" fw="bold" pt={0} ta="center">
-                              {testimonial.role}
-                            </Text>
-                          </Box>
-                        </Paper>
-                      </Center>
-                    </Box>
+                          )}
+                        </Transition>
+                      ) : (
+                        <Transition
+                          mounted={aboutTransition}
+                          keepMounted
+                          transition="slide-left"
+                          duration={3000}
+                          timingFunction="ease"
+                        >
+                          {(styles) => (
+                            <Box style={styles} w="100%" h="100%">
+                              <AspectRatio>
+                                <Image
+                                  component={NextImage}
+                                  w={220}
+                                  h={220}
+                                  src={about.image}
+                                  alt="cleaning image"
+                                />
+                              </AspectRatio>
+                            </Box>
+                          )}
+                        </Transition>
+                      )}
+                    </GridCol>
                   )}
-                </Transition>
-              </GridCol>
-            ))}
-          </Grid>
-        </Container>
-        <Box style={{ zIndex: 3 }} mih={150} ref={CTARef}>
+                </Grid>
+              ))}
+            </Box>
+          </Container>
+        </Box>
+        <Box py={theme.spacing?.xl}>
+          <Container size="80%">
+            <Title c={theme.colors?.yellow?.[1]} order={2} ta="center">
+              {t('testimonials.title')}
+            </Title>
+            <Text my={theme.spacing?.sm} c="dimmed" ta="center" size="lg" mx="auto">
+              {t('testimonials.subTitle')}
+            </Text>
+            <Grid
+              mih={{ base: 1000, sm: 700, md: 300 }}
+              mt={theme.spacing?.xl}
+              align="center"
+              justify="center"
+              gutter={theme.spacing?.md}
+              py={theme.spacing?.xl}
+            >
+              {testimonials.map((testimonial, index) => (
+                <GridCol
+                  ref={testimonialRef}
+                  mt={theme.spacing?.xl}
+                  pos="relative"
+                  key={index}
+                  span={{ base: 12, sm: 6, md: 4 }}
+                >
+                  <Transition
+                    mounted={testimonialTransition}
+                    keepMounted
+                    transition="fade-up"
+                    duration={3000}
+                    timingFunction="ease"
+                  >
+                    {(styles) => (
+                      <Box style={styles}>
+                        <Box
+                          mt={theme.spacing?.md}
+                          style={{ display: 'flex', justifyContent: 'center' }}
+                        >
+                          <AspectRatio
+                            style={{
+                              border: 'black',
+                              backgroundColor: 'Highlight',
+                              borderRadius: 50,
+                            }}
+                            mt={-50}
+                            pos="absolute"
+                            w={100}
+                            h={100}
+                          >
+                            <NextImage
+                              style={{ width: '100%', height: '100%', borderRadius: 50 }}
+                              src={testimonial.image}
+                              alt=""
+                            />
+                          </AspectRatio>
+                        </Box>
+                        <Center>
+                          <Paper
+                            // className={classes.paper}
+                            // withBorder
+                            pt={theme.spacing?.xl}
+                            style={{
+                              display: 'flex',
+                              justifyContent: 'center',
+                              alignItems: 'center',
+                            }}
+                            shadow="xl"
+                            p={theme.spacing?.md}
+                            // h={200}
+                            // w={261}
+                          >
+                            <Box w="100%">
+                              <Box
+                                mih={142}
+                                style={{
+                                  display: 'flex',
+                                  justifyContent: 'center',
+                                  alignItems: 'center',
+                                }}
+                              >
+                                <Text fs="italic" fz="sm" ta="center">
+                                  {testimonial.desc}
+                                </Text>
+                              </Box>
+                              <Text fz="md" fw="bold" pt={theme.spacing?.md} ta="center">
+                                {testimonial.title}
+                              </Text>
+                              <Text fz="xs" fw="bold" pt={0} ta="center">
+                                {testimonial.role}
+                              </Text>
+                            </Box>
+                          </Paper>
+                        </Center>
+                      </Box>
+                    )}
+                  </Transition>
+                </GridCol>
+              ))}
+            </Grid>
+          </Container>
+        </Box>
+        <Box py={theme.spacing?.xl} bg="#f0e6eb" mih={200} ref={CTARef}>
           <Transition
             mounted={CTATransition}
             keepMounted

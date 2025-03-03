@@ -1,0 +1,102 @@
+{
+    "title": "Expert remodeling services",
+    "subtitle": "Transforming homes and businesses with quality craftsmanship and innovative design.",
+    "header": {
+        "button": "Contact us"
+    },
+    "advantages": {
+        "title": "Why choose us?",
+        "subtitle": "Discover the key benefits of our remodeling services.",
+        "quality": {
+            "title": "High-quality work",
+            "text": "We use premium materials and modern techniques to ensure durable and aesthetically pleasing renovations."
+        },
+        "flexible": {
+            "title": "Flexible scheduling",
+            "text": "We adapt to your schedule to minimize disruptions and ensure a smooth remodeling process."
+        },
+        "expertise": {
+            "title": "Experienced team",
+            "text": "Our skilled professionals handle every aspect of your project, from design to completion."
+        },
+        "custom": {
+            "title": "Customized solutions",
+            "text": "Every project is unique. We tailor our services to perfectly match your needs and vision."
+        }
+    },
+    "commitments": {
+        "title": "Our commitments",
+        "subtitle": "We are dedicated to quality, safety, and customer satisfaction.",
+        "transparency": {
+            "title": "Transparency",
+            "text": "We maintain clear and honest communication with our clients regarding pricing, services, and expectations."
+        },
+        "insurance": {
+            "title": "Insurance & safety",
+            "text": "Our team is insured, ensuring protection for your property and peace of mind."
+        },
+        "satisfaction": {
+            "title": "Customer satisfaction",
+            "text": "We are committed to exceeding customer expectations and continuously improving our services."
+        },
+        "punctuality": {
+            "title": "Punctuality",
+            "text": "We respect your time and ensure our team is always on schedule for every appointment."
+        }
+    },
+    "services": {
+        "title": "Our remodeling services",
+        "subtitle": "Comprehensive remodeling solutions tailored to your needs, ensuring beautiful and functional spaces.",
+        "home": {
+            "title": "Home renovation & remodeling",
+            "text": "Transform your living space with our expert renovation services. Whether it's a complete home makeover or specific room upgrades, we bring your vision to life with precision and care."
+        },
+        "kitchen": {
+            "title": "Kitchen & bathroom upgrades",
+            "text": "Enhance the heart of your home with our kitchen and bathroom upgrades. From modern designs to functional layouts, we create spaces that combine style and practicality."
+        },
+        "flooring": {
+            "title": "Flooring installation",
+            "text": "Looking for new floors? Our flooring installation service covers everything from hardwood to tiles, ensuring high-quality finishes that last."
+        },
+        "painting": {
+            "title": "Painting & wallpapering",
+            "text": "Add color and character to your home with our professional painting and wallpapering services. We ensure smooth finishes and beautiful results, giving your rooms a fresh, updated look."
+        }
+    },
+
+    "FAQ": {
+        "title": "Frequently asked questions",
+        "subtitle": "Answers to common questions about our remodeling services.",
+        "question1": "What types of remodeling services do you offer?",
+        "answer1": "We specialize in home and office remodeling, including kitchen and bathroom renovations, flooring, painting, and full interior redesigns.",
+        "question2": "Do you provide design consultations?",
+        "answer2": "Yes, we offer professional design consultations to help you plan and customize your remodeling project according to your style and needs.",
+        "question3": "How long does a remodeling project take?",
+        "answer3": "Project duration varies depending on the scope of work. We provide a detailed timeline after evaluating your project.",
+        "question4": "Can I live in my home during the remodeling process?",
+        "answer4": "In most cases, yes. However, for extensive renovations, temporary relocation may be recommended to ensure safety and convenience.",
+        "question5": "Do you handle permits and approvals?",
+        "answer5": "Yes, we take care of all necessary permits and ensure compliance with local building regulations."
+    },
+    "meta": {
+        "title": "Professional Remodeling Services | Angel's Closet",
+        "description": "Transform your space with our expert remodeling services. From design to finishing, we create modern and functional interiors. Get a free quote today!",
+        "keywords": "remodeling services, home remodeling, office renovation, interior design, construction work, kitchen remodeling, bathroom renovation, remodeling contractors",
+        "robots": "index, follow",
+        "canonical": "https://angels-closet-web.vercel.app/remodeling"
+    },
+    "openGraph": {
+        "title": "Professional Remodeling Services | Angel's Closet",
+        "description": "Renovate your home or office with our expert remodeling team. Custom designs, high-quality work, and impeccable finishes. Contact us today!",
+        "url": "https://angels-closet-web.vercel.app/remodeling",
+        "image": "https://angels-closet-web.vercel.app/images/renovation.png",
+        "type": "website"
+    },
+    "twitter": {
+        "title": "Professional Remodeling Services | Angel's Closet",
+        "description": "Looking to renovate your space? Our experts deliver high-quality remodeling work to modernize and optimize your home or office. Get a quote today!",
+        "image": "https://angels-closet-web.vercel.app/images/renovation.png"
+    }
+
+}

@@ -2,7 +2,7 @@ import { createTheme, rem } from '@mantine/core';
 
 export const theme = createTheme({
   /* Put your mantine theme override here */
-  primaryColor: 'yellow',
+  primaryColor: 'blue',
   colors: {
     yellow: [
       '#f7941d',
@@ -51,6 +51,18 @@ export const theme = createTheme({
       '#ebebeb',
       '#e5e5e5',
       '#dfdfdf',
+    ],
+    indigo: [
+      '#680739',
+      '#5e0633',
+      '#53062e',
+      '#490528',
+      '#3e0422',
+      '#77204d',
+      '#863961',
+      '#955174',
+      '#a46a88',
+      '#b4839c',
     ],
     // gray:["#f5f5f5", "#ebebeb", "#e1e1e1", "#d7d7d7", "#cdcdcd", "#f0f0f0", "#f8f8f8", "#ffffff", "#ffffff", "#ffffff"],
   },

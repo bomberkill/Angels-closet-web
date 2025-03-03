@@ -6,8 +6,8 @@
   "header": {
     "sections": {
       "home": "Home",
-      "about": "About Us",
-      "contact": "Contact Us",
+      "about": "About us",
+      "contact": "Contact us",
       "section": {
         "title": "Services",
         "subLinks": {
@@ -18,14 +18,14 @@
       },
       "link": "Useful links"
     },
-    "button": "Contact Us",
+    "button": "Contact us",
     "follow": "Follow us on social media",
     "rights": "All rights reserved"
   },
   "cta": {
-    "title": "Ready for a Hassle-Free Experience?",
+    "title": "Ready for a hassle-free experience?",
     "subTitle": "Let our experts handle your moving, remodeling, or cleaning needs with professionalism and care.",
-    "buttonText": "Get a Free Quote",
-    "callButton": "Call Us Now"
+    "buttonText": "Get a free quote",
+    "callButton": "Call us now"
   }
 }

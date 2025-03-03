@@ -1,0 +1,102 @@
+{
+    "title": "Professional cleaning services",
+    "subtitle": "Reliable and eco-friendly solutions for homes and businesses.",
+    "header": {
+        "button": "Contact us"
+    },
+    "advantages": {
+        "title": "Why choose us?",
+        "subtitle": "Discover the key benefits of our cleaning services.",
+        "product": {
+            "title": "Natural products",
+            "text": "We use eco-friendly cleaning solutions that are safe for your family, pets, and the environment."
+        },
+        "flexible": {
+            "title": "Flexible hours",
+            "text": "Our team adapts to your schedule by offering cleaning services at your convenience, including weekends."
+        },
+        "cleaner": {
+            "title": "Professional cleaners",
+            "text": "Trained and experienced professionals ensure a thorough and impeccable cleaning with every service."
+        },
+        "tools": {
+            "title": "Professional cleaning tools",
+            "text": "We use high-quality professional equipment to guarantee effective and deep cleaning."
+        }
+    },
+    "commitments": {
+        "title": "Our commitments",
+        "subtitle": "We are dedicated to quality, safety, and customer satisfaction.",
+        "transparency": {
+            "title": "Transparency",
+            "text": "We maintain clear and honest communication with our clients regarding pricing, services, and expectations."
+        },
+        "insurance": {
+            "title": "Insurance & safety",
+            "text": "Our team is insured, ensuring protection for your property and peace of mind."
+        },
+        "satisfaction": {
+            "title": "Customer satisfaction",
+            "text": "We are committed to exceeding customer expectations and continuously improving our services."
+        },
+        "punctuality": {
+            "title": "Punctuality",
+            "text": "We respect your time and ensure our team is always on schedule for every appointment."
+        }
+    },
+    "services": {
+        "title": "Our services",
+        "subtitle": "Comprehensive cleaning solutions tailored to your needs, ensuring a spotless and comfortable environment.",
+        "renovation": {
+            "title": "Post-renovation cleaning",
+            "text": "After a renovation, dust, debris, and construction residues can make your space uncomfortable. Our post-renovation cleaning service removes all traces of dirt, ensuring your home or office is fresh, spotless, and ready to be enjoyed."
+        },
+        "move": {
+            "title": "Pre & post-move cleaning",
+            "text": "Moving can be stressful, but a thorough cleaning ensures a smooth transition. We prepare your new home by deep cleaning before you move in and leave your old space immaculate for the next occupants, focusing on every detail, from carpets to kitchen appliances."
+        },
+        "office": {
+            "title": "Office & commercial cleaning",
+            "text": "A clean workspace is essential for productivity and employee well-being. Our office cleaning services include dusting, vacuuming, sanitizing common areas, and disinfecting surfaces to create a professional and healthy environment for your team and clients."
+        },
+        "cleaning": {
+            "title": "House cleaning",
+            "text": "Whether you need regular maintenance or an intensive deep clean, our house cleaning service is designed to keep your home fresh, hygienic, and welcoming. We take care of dusting, vacuuming, sanitizing bathrooms, kitchens, and more, using eco-friendly products for a safe and healthy space."
+        },
+        "roofs": {
+            "title": "Gardens, fences, walls & roofs cleaning",
+            "text": "Outdoor areas accumulate dirt, moss, and weather stains over time. Our high-pressure washing service restores the beauty of your garden paths, fences, walls, and roofs by removing grime, mold, and other build-ups, helping to maintain and protect your property's exterior."
+        }
+    },
+
+    "FAQ": {
+        "title": "Frequently asked questions",
+        "subtitle": "Answers to common questions about our services.",
+        "question1": "What cleaning products do you use?",
+        "answer1": "We use eco-friendly and non-toxic cleaning products that are safe for all environments.",
+        "question2": "Can I schedule a cleaning outside of normal hours?",
+        "answer2": "Yes, we offer flexible hours, including weekends and evenings upon request.",
+        "question3": "Do you bring your own equipment?",
+        "answer3": "Yes, our team is fully equipped with professional cleaning tools and products."
+    },
+    "meta": {
+      "title": "Expert Cleaning Services for Homes & Offices | Angel's Closet",
+      "description": "Need a spotless home or office? Our professional cleaning services include deep cleaning, post-renovation cleaning, and commercial cleaning. Book now!",
+      "keywords": "cleaning services, home cleaning, office cleaning, deep cleaning, move-in cleaning, post-renovation cleaning, commercial cleaning, professional cleaners",
+      "robots": "index, follow",
+      "canonical": "https://angels-closet-web.vercel.app/cleaning"
+    },
+    "openGraph": {
+      "title": "Expert Cleaning Services for Homes & Offices | Angel's Closet",
+      "description": "Professional cleaning services to keep your home and workspace fresh and spotless. Book a session today!",
+      "url": "https://angels-closet-web.vercel.app/cleaning",
+      "image": "https://angels-closet-web.vercel.app/images/cleaner.png",
+      "type": "website"
+    },
+    "twitter": {
+      "title": "Expert Cleaning Services for Homes & Offices | Angel's Closet",
+      "description": "Need professional cleaning? Our expert cleaners provide top-quality deep cleaning, move-in cleaning, and commercial cleaning. Get a quote today!",
+      "image": "https://angels-closet-web.vercel.app/images/cleaner.png"
+    }
+
+}

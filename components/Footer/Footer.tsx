@@ -13,7 +13,8 @@ import {
   Text,
 } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
-import logo from '@/public/images/angel logo.png';
+import logo from '@/public/images/angel-logo.png';
+import contact from '@/public/images/circle.png';
 import facebook from '@/public/images/facebook.png';
 import instagram from '@/public/images/instagram.png';
 import tiktok from '@/public/images/tiktok.png';
@@ -39,21 +40,21 @@ export default function Footer() {
     },
     {
       text: t('header.sections.contact'),
-      link: '/contact',
+      link: '/contact-us',
     },
   ];
   const subLinks = [
     {
       text: t('header.sections.section.subLinks.moving'),
-      link: '/articles',
+      link: '/moving',
     },
     {
       text: t('header.sections.section.subLinks.remodeling'),
-      link: '/news',
+      link: '/remodeling',
     },
     {
       text: t('header.sections.section.subLinks.cleaning'),
-      link: '/breve',
+      link: '/cleaning',
     },
   ];
   const socials = [
@@ -94,7 +95,7 @@ export default function Footer() {
     </Box>
   ));
   return (
-    <Box bg="#1e1e1e" pb={theme.spacing?.sm} pt={theme.spacing?.xl} mt={theme.spacing?.xl}>
+    <Box bg="#1e1e1e" pb={theme.spacing?.sm} pt={theme.spacing?.xl}>
       <footer>
         <Container size="90%">
           <Grid grow align="start">
@@ -124,6 +125,12 @@ export default function Footer() {
                       <NextImage alt="icon" src={social.icon} width={25} height={25} />
                     </Link>
                   ))}
+                </Group>
+                <Group mt={theme.spacing?.sm} align="center" justify="space-between">
+                  <NextImage alt="icon" src={contact} width={25} height={25} />
+                  <Text size="xs" c="white">
+                    +1 (240) 309 1643
+                  </Text>
                 </Group>
               </Stack>
             </GridCol>

@@ -8,7 +8,7 @@ export default function CallToAction() {
   return (
     <Container size="90%">
       <Box>
-        <Title c={theme.colors?.yellow?.[1]} order={2} ta="center" mt="xl">
+        <Title c={theme.colors?.yellow?.[1]} order={2} ta="center">
           {t('cta.title')}
         </Title>
         <Text my={theme.spacing?.sm} c="dimmed" ta="center" size="lg" mx="auto">
