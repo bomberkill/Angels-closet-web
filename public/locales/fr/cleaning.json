@@ -84,18 +84,18 @@
     "description": "Besoin d’une maison ou d’un bureau impeccable ? Nos services de nettoyage professionnels incluent le nettoyage en profondeur, après rénovation et commercial. Réservez maintenant !",
     "keywords": "services de nettoyage, nettoyage maison, nettoyage bureau, nettoyage en profondeur, nettoyage après déménagement, nettoyage après rénovation, nettoyage commercial, nettoyeurs professionnels",
     "robots": "index, follow",
-    "canonical": "https://angels-closet-web.vercel.app/nettoyage"
+    "canonical": "https://angelsclosets.com/nettoyage"
     },
     "openGraph": {
     "title": "Services de Nettoyage Experts pour Maisons & Bureaux | Angel's Closet",
     "description": "Des services de nettoyage professionnels pour garder votre maison et votre espace de travail frais et impeccables. Réservez une séance dès aujourd'hui !",
-    "url": "https://angels-closet-web.vercel.app/nettoyage",
-    "image": "https://angels-closet-web.vercel.app/images/cleaner.png",
+    "url": "https://angelsclosets.com/nettoyage",
+    "image": "https://angelsclosets.com/images/cleaner.png",
     "type": "website"
     },
     "twitter": {
     "title": "Services de Nettoyage Experts pour Maisons & Bureaux | Angel's Closet",
     "description": "Besoin d'un nettoyage professionnel ? Nos experts assurent un service de nettoyage en profondeur, après déménagement et commercial de haute qualité. Obtenez un devis dès maintenant !",
-    "image": "https://angels-closet-web.vercel.app/images/cleaner.png"
+    "image": "https://angelsclosets.com/images/cleaner.png"
     }
 }

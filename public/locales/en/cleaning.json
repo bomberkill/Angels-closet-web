@@ -84,19 +84,19 @@
       "description": "Need a spotless home or office? Our professional cleaning services include deep cleaning, post-renovation cleaning, and commercial cleaning. Book now!",
       "keywords": "cleaning services, home cleaning, office cleaning, deep cleaning, move-in cleaning, post-renovation cleaning, commercial cleaning, professional cleaners",
       "robots": "index, follow",
-      "canonical": "https://angels-closet-web.vercel.app/cleaning"
+      "canonical": "https://angelsclosets.com/cleaning"
     },
     "openGraph": {
       "title": "Expert Cleaning Services for Homes & Offices | Angel's Closet",
       "description": "Professional cleaning services to keep your home and workspace fresh and spotless. Book a session today!",
-      "url": "https://angels-closet-web.vercel.app/cleaning",
-      "image": "https://angels-closet-web.vercel.app/images/cleaner.png",
+      "url": "https://angelsclosets.com/cleaning",
+      "image": "https://angelsclosets.com/images/cleaner.png",
       "type": "website"
     },
     "twitter": {
       "title": "Expert Cleaning Services for Homes & Offices | Angel's Closet",
       "description": "Need professional cleaning? Our expert cleaners provide top-quality deep cleaning, move-in cleaning, and commercial cleaning. Get a quote today!",
-      "image": "https://angels-closet-web.vercel.app/images/cleaner.png"
+      "image": "https://angelsclosets.com/images/cleaner.png"
     }
 
 }

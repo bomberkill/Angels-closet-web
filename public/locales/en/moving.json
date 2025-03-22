@@ -84,19 +84,19 @@
         "description": "Moving soon? Our expert moving services ensure a hassle-free relocation with packing, transportation, and unpacking. Book your move today!",
         "keywords": "moving services, relocation services, home moving, office moving, packing services, moving company, professional movers, long-distance moving",
         "robots": "index, follow",
-        "canonical": "https://angels-closet-web.vercel.app/moving"
+        "canonical": "https://angelsclosets.com/moving"
     },
   "openGraph": {
         "title": "Professional Moving Services | Angel's Closet",
         "description": "Relocate with ease! Our professional moving services handle everything from packing to transport. Get a free quote today!",
-        "url": "https://angels-closet-web.vercel.app/moving",
-        "image": "https://angels-closet-web.vercel.app/images/deliver.png",
+        "url": "https://angelsclosets.com/moving",
+        "image": "https://angelsclosets.com/images/deliver.png",
         "type": "website"
     },
   "twitter": {
         "title": "Professional Moving Services | Angel's Closet",
         "description": "Need help moving? Our expert movers provide top-quality relocation services, including packing and transport. Book now!",
-        "image": "https://angels-closet-web.vercel.app/images/moving.png"
+        "image": "https://angelsclosets.com/images/moving.png"
     }
 
 }

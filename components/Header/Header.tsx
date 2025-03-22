@@ -56,10 +56,10 @@ export default function Header({ color, hide }: { color?: boolean; hide?: boolea
         text: t('header.sections.section.title'),
         link: '',
       },
-      {
-        text: t('header.sections.about'),
-        link: '/about',
-      },
+      // {
+      //   text: t('header.sections.about'),
+      //   link: '/about',
+      // },
       {
         text: t('header.sections.contact'),
         link: '/contact-us',

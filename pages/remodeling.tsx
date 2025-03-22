@@ -299,17 +299,6 @@ export default function Remodeling() {
                       </>
                     )}
                   </Transition>
-                  {/* <Transition
-                                        mounted
-                                        keepMounted
-                                        transition="slide-up"
-                                        duration={2500}
-                                        timingFunction="ease"
-                                    >
-                                        {(styles) => (
-                                        
-                                        )}
-                                    </Transition> */}
                 </Box>
               </GridCol>
               <GridCol display={isSmallScreen ? 'block' : 'none'} span={6}>
@@ -332,6 +321,8 @@ export default function Remodeling() {
                     >
                       <AspectRatio>
                         <Image
+                          priority
+                          loading="eager"
                           component={NextImage}
                           w="100%"
                           h="100%"
@@ -368,15 +359,7 @@ export default function Remodeling() {
                     key={index}
                     mounted={advantageTransition}
                     keepMounted
-                    transition={
-                      index % 2 === 0
-                        ? !isSmallScreen
-                          ? 'slide-right'
-                          : 'slide-up'
-                        : !isSmallScreen
-                          ? 'slide-left'
-                          : 'slide-down'
-                    }
+                    transition="fade-up"
                     duration={2500}
                     timingFunction="ease"
                   >
@@ -394,6 +377,8 @@ export default function Remodeling() {
                         >
                           <AspectRatio>
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={75}
                               h={75}
@@ -451,7 +436,7 @@ export default function Remodeling() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-right"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -469,6 +454,8 @@ export default function Remodeling() {
                             h="100%"
                           >
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={150}
                               h={150}
@@ -481,7 +468,7 @@ export default function Remodeling() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -501,7 +488,7 @@ export default function Remodeling() {
                     <Transition
                       mounted={serviceTransition}
                       keepMounted
-                      transition="slide-right"
+                      transition="fade-up"
                       duration={3000}
                       timingFunction="ease"
                     >
@@ -520,7 +507,7 @@ export default function Remodeling() {
                     <Transition
                       mounted={serviceTransition}
                       keepMounted
-                      transition="slide-right"
+                      transition="fade-up"
                       duration={3000}
                       timingFunction="ease"
                     >
@@ -536,6 +523,8 @@ export default function Remodeling() {
                           h="100%"
                         >
                           <Image
+                            priority
+                            loading="eager"
                             component={NextImage}
                             w={150}
                             h={150}
@@ -553,7 +542,7 @@ export default function Remodeling() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -572,7 +561,7 @@ export default function Remodeling() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -580,6 +569,8 @@ export default function Remodeling() {
                           <Box style={styles} w="100%" h="100%">
                             <AspectRatio>
                               <Image
+                                priority
+                                loading="eager"
                                 component={NextImage}
                                 w={150}
                                 h={150}
@@ -637,15 +628,7 @@ export default function Remodeling() {
                     key={index}
                     mounted={commitmentTransition}
                     keepMounted
-                    transition={
-                      index % 2 === 0
-                        ? !isSmallScreen
-                          ? 'slide-right'
-                          : 'slide-up'
-                        : !isSmallScreen
-                          ? 'slide-left'
-                          : 'slide-down'
-                    }
+                    transition="fade-up"
                     duration={2500}
                     timingFunction="ease"
                   >
@@ -663,6 +646,8 @@ export default function Remodeling() {
                         >
                           <AspectRatio>
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={50}
                               h={50}

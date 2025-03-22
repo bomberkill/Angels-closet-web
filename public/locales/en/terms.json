@@ -1,0 +1,33 @@
+{
+    "title": "Terms and Conditions",
+    "description": "These terms and conditions outline the rules and regulations for the use of our services. By using our website, you agree to comply with these terms.",
+    "acceptanceOfTerms": {
+      "title": "1. Acceptance of Terms",
+      "description": "By accessing or using our services, you agree to comply with and be bound by these Terms & Conditions. If you do not agree with any part of these terms, you must not use our services. These terms apply to all users of our website and services, including visitors, registered users, and customers. We reserve the right to modify, update, or change these terms at any time, so we encourage you to review them periodically."
+    },
+    "useOfServices": {
+      "title": "2. Use of Services",
+      "description": "Our services are provided to you for personal and non-commercial use. You agree not to use the services for any illegal or unauthorized purpose, including but not limited to violating intellectual property rights, engaging in fraudulent activities, or distributing harmful content. You are responsible for ensuring that your use of our services complies with all applicable laws, regulations, and guidelines. We may suspend or terminate your access if we believe your use of the services violates these terms."
+    },
+    "intellectualProperty": {
+      "title": "4. Intellectual Property",
+      "description": "All content provided through our services, including text, graphics, logos, images, software, and trademarks, are owned by us or licensed to us and are protected by copyright and other intellectual property laws. You may not use, modify, reproduce, or distribute any content without our express written permission, except as allowed by law. Any unauthorized use of our intellectual property may result in legal action. We respect the intellectual property rights of others and expect our users to do the same."
+    },
+    "disclaimerOfWarranties": {
+      "title": "5. Disclaimer of Warranties",
+      "description": "We strive to provide accurate and reliable services; however, we make no representations or warranties regarding the availability, accuracy, or performance of our services. Our services are provided 'as is,' and we disclaim all warranties, whether express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not guarantee that our services will meet your expectations or be free from errors or interruptions. You use our services at your own risk."
+    },
+    "limitationOfLiability": {
+      "title": "6. Limitation of Liability",
+      "description": "To the fullest extent permitted by law, we shall not be held liable for any damages, including but not limited to direct, indirect, incidental, special, or consequential damages, arising from the use or inability to use our services. This includes damages for loss of data, business interruptions, or personal injury. Our total liability, in any case, will not exceed the amount you have paid us for the specific service that gave rise to the claim. We are not responsible for any third-party content or services linked to our website or services."
+    },
+    "modificationsToTerms": {
+      "title": "7. Modifications to Terms",
+      "description": "We reserve the right to update or modify these Terms & Conditions at any time. If we make changes, we will post the updated terms on our website with the date of the most recent revision. It is your responsibility to review these terms periodically to stay informed of any changes. By continuing to use our services after changes have been posted, you accept the revised Terms & Conditions. If you do not agree with the changes, you should stop using our services immediately."
+    },
+    "governingLaw": {
+      "title": "8. Governing Law",
+      "description": "These Terms & Conditions shall be governed by and construed in accordance with the laws of the jurisdiction in which our company is based, without regard to its conflict of law principles. Any disputes arising from or relating to these terms shall be resolved in the competent courts of the jurisdiction in which our company operates. By using our services, you consent to the exclusive jurisdiction and venue of the courts located in that jurisdiction."
+    }     
+}
+  

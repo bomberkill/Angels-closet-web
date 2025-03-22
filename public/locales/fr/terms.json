@@ -1,0 +1,32 @@
+{
+  "title": "Termes et Conditions",
+  "description": "Ces termes et conditions définissent les règles et règlements pour l'utilisation de nos services. En utilisant notre site Web, vous acceptez de vous conformer à ces termes.",
+  "acceptanceOfTerms": {
+    "title": "1. Acceptation des Conditions",
+    "description": "En accédant à nos services ou en les utilisant, vous acceptez de vous conformer et d'être lié par ces Termes et Conditions. Si vous n'êtes pas d'accord avec une partie quelconque de ces conditions, vous ne devez pas utiliser nos services. Ces conditions s'appliquent à tous les utilisateurs de notre site Web et de nos services, y compris les visiteurs, les utilisateurs enregistrés et les clients. Nous nous réservons le droit de modifier, mettre à jour ou changer ces conditions à tout moment, nous vous encourageons donc à les consulter périodiquement."
+  },
+  "useOfServices": {
+    "title": "2. Utilisation des Services",
+    "description": "Nos services sont fournis pour votre usage personnel et non commercial. Vous acceptez de ne pas utiliser les services à des fins illégales ou non autorisées, y compris, mais sans s'y limiter, la violation des droits de propriété intellectuelle, la fraude ou la distribution de contenu nuisible. Vous êtes responsable de vous assurer que votre utilisation de nos services respecte toutes les lois, règlements et directives applicables. Nous pouvons suspendre ou résilier votre accès si nous estimons que votre utilisation des services viole ces conditions."
+  },
+  "intellectualProperty": {
+    "title": "4. Propriété Intellectuelle",
+    "description": "Tout le contenu fourni par le biais de nos services, y compris les textes, graphiques, logos, images, logiciels et marques, est la propriété de notre entreprise ou sous licence et est protégé par des lois sur le droit d'auteur et d'autres lois sur la propriété intellectuelle. Vous ne pouvez pas utiliser, modifier, reproduire ou distribuer ce contenu sans notre autorisation écrite expresse, sauf si la loi le permet. Toute utilisation non autorisée de notre propriété intellectuelle peut entraîner des actions en justice. Nous respectons les droits de propriété intellectuelle des autres et attendons de nos utilisateurs qu'ils fassent de même."
+  },
+  "disclaimerOfWarranties": {
+    "title": "5. Avertissement sur les Garanties",
+    "description": "Nous nous efforçons de fournir des services précis et fiables ; cependant, nous ne faisons aucune déclaration ni garantie concernant la disponibilité, la précision ou la performance de nos services. Nos services sont fournis 'tels quels', et nous déclinons toutes les garanties, explicites ou implicites, y compris mais sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier et de non-contrefaçon. Nous ne garantissons pas que nos services répondront à vos attentes ou seront exempts d'erreurs ou d'interruptions. Vous utilisez nos services à vos propres risques."
+  },
+  "limitationOfLiability": {
+    "title": "6. Limitation de Responsabilité",
+    "description": "Dans la mesure maximale autorisée par la loi, nous ne serons pas tenus responsables des dommages, y compris mais sans s'y limiter, des dommages directs, indirects, accessoires, spéciaux ou consécutifs, découlant de l'utilisation ou de l'incapacité d'utiliser nos services. Cela inclut les dommages pour perte de données, interruptions d'activité ou blessures corporelles. Notre responsabilité totale, dans tous les cas, ne dépassera pas le montant que vous avez payé pour le service spécifique ayant donné lieu à la réclamation. Nous ne sommes pas responsables du contenu ou des services tiers liés à notre site Web ou à nos services."
+  },
+  "modificationsToTerms": {
+    "title": "7. Modifications des Conditions",
+    "description": "Nous nous réservons le droit de mettre à jour ou de modifier ces Termes et Conditions à tout moment. Si nous apportons des modifications, nous publierons les conditions mises à jour sur notre site Web avec la date de la révision la plus récente. Il est de votre responsabilité de consulter régulièrement ces conditions pour rester informé des changements. En continuant à utiliser nos services après la publication des modifications, vous acceptez les Termes et Conditions révisés. Si vous n'êtes pas d'accord avec les modifications, vous devez cesser d'utiliser nos services immédiatement."
+  },
+  "governingLaw": {
+    "title": "8. Loi Applicable",
+    "description": "Ces Termes et Conditions seront régis et interprétés conformément aux lois de la juridiction dans laquelle notre entreprise est située, sans tenir compte de ses principes de conflit de lois. Tout litige découlant de ou lié à ces conditions sera résolu par les tribunaux compétents de la juridiction où notre entreprise opère. En utilisant nos services, vous consentez à la juridiction exclusive et au lieu des tribunaux situés dans cette juridiction."
+  }
+}

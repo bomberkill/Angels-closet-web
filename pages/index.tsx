@@ -276,6 +276,8 @@ export default function HomePage() {
           {/* Play Button (Only shows when paused) */}
           {!isPlaying && (
             <Image
+              priority
+              loading="eager"
               component={NextImage}
               style={{
                 transform: 'translate(-50%, -50%)',
@@ -376,15 +378,7 @@ export default function HomePage() {
                     key={index}
                     mounted={serviceTransition}
                     keepMounted
-                    transition={
-                      index % 2 === 0
-                        ? !isSmallScreen
-                          ? 'slide-right'
-                          : 'slide-up'
-                        : !isSmallScreen
-                          ? 'slide-left'
-                          : 'slide-down'
-                    }
+                    transition="fade-up"
                     duration={2500}
                     timingFunction="ease"
                   >
@@ -400,6 +394,8 @@ export default function HomePage() {
                         >
                           <AspectRatio>
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w="100%"
                               h="100%"
@@ -481,7 +477,7 @@ export default function HomePage() {
                         <Transition
                           mounted={aboutTransition}
                           keepMounted
-                          transition="slide-right"
+                          transition="fade-up"
                           duration={3000}
                           timingFunction="ease"
                         >
@@ -499,6 +495,8 @@ export default function HomePage() {
                               h="100%"
                             >
                               <Image
+                                priority
+                                loading="eager"
                                 component={NextImage}
                                 w={220}
                                 h={220}
@@ -511,7 +509,7 @@ export default function HomePage() {
                         <Transition
                           mounted={aboutTransition}
                           keepMounted
-                          transition="slide-left"
+                          transition="fade-up"
                           duration={3000}
                           timingFunction="ease"
                         >
@@ -531,7 +529,7 @@ export default function HomePage() {
                       <Transition
                         mounted={aboutTransition}
                         keepMounted
-                        transition="slide-right"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -550,7 +548,7 @@ export default function HomePage() {
                       <Transition
                         mounted={aboutTransition}
                         keepMounted
-                        transition="slide-right"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -566,6 +564,8 @@ export default function HomePage() {
                             h="100%"
                           >
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={220}
                               h={220}
@@ -583,7 +583,7 @@ export default function HomePage() {
                         <Transition
                           mounted={aboutTransition}
                           keepMounted
-                          transition="slide-left"
+                          transition="fade-up"
                           duration={3000}
                           timingFunction="ease"
                         >
@@ -602,7 +602,7 @@ export default function HomePage() {
                         <Transition
                           mounted={aboutTransition}
                           keepMounted
-                          transition="slide-left"
+                          transition="fade-up"
                           duration={3000}
                           timingFunction="ease"
                         >
@@ -610,6 +610,8 @@ export default function HomePage() {
                             <Box style={styles} w="100%" h="100%">
                               <AspectRatio>
                                 <Image
+                                  priority
+                                  loading="eager"
                                   component={NextImage}
                                   w={220}
                                   h={220}

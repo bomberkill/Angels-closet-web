@@ -84,19 +84,19 @@
         "description": "Transform your space with our expert remodeling services. From design to finishing, we create modern and functional interiors. Get a free quote today!",
         "keywords": "remodeling services, home remodeling, office renovation, interior design, construction work, kitchen remodeling, bathroom renovation, remodeling contractors",
         "robots": "index, follow",
-        "canonical": "https://angels-closet-web.vercel.app/remodeling"
+        "canonical": "https://angelsclosets.com/remodeling"
     },
     "openGraph": {
         "title": "Professional Remodeling Services | Angel's Closet",
         "description": "Renovate your home or office with our expert remodeling team. Custom designs, high-quality work, and impeccable finishes. Contact us today!",
-        "url": "https://angels-closet-web.vercel.app/remodeling",
-        "image": "https://angels-closet-web.vercel.app/images/renovation.png",
+        "url": "https://angelsclosets.com/remodeling",
+        "image": "https://angelsclosets.com/images/renovation.png",
         "type": "website"
     },
     "twitter": {
         "title": "Professional Remodeling Services | Angel's Closet",
         "description": "Looking to renovate your space? Our experts deliver high-quality remodeling work to modernize and optimize your home or office. Get a quote today!",
-        "image": "https://angels-closet-web.vercel.app/images/renovation.png"
+        "image": "https://angelsclosets.com/images/renovation.png"
     }
 
 }

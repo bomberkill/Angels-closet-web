@@ -21,19 +21,19 @@
       "description": "Get in touch with us for inquiries, support, or collaborations. Our team is here to help.",
       "keywords": "contact, support, customer service, help, inquiries",
       "robots": "index, follow",
-      "canonical": "https://angels-closet-web.vercel.app/contact"
+      "canonical": "https://angelsclosets.com/contact"
     },
     "openGraph": {
       "title": "Contact Us | Angel's Closet",
       "description": "Need assistance? Contact our team for help and information.",
-      "url": "https://angels-closet-web.vercel.app/contact-us",
-      "image": "https://angels-closet-web.vercel.app/images/angel-logo.png",
+      "url": "https://angelsclosets.com/contact-us",
+      "image": "https://angelsclosets.com/images/angel-logo.png",
       "type": "website"
     },
     "twitter": {
       "title": "Contact Us | Angel's Closet",
       "description": "Have a question? Reach out to us for assistance and support.",
-      "image": "https://angels-closet-web.vercel.app/angel-logo.png"
+      "image": "https://angelsclosets.com/angel-logo.png"
     }
   }
   

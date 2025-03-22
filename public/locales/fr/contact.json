@@ -21,19 +21,19 @@
       "description": "Contactez-nous pour toute question, demande d'assistance ou collaboration. Notre équipe est à votre disposition.",
       "keywords": "contact, support, service client, assistance, demande",
       "robots": "index, follow",
-      "canonical": "https://angels-closet-web.vercel.app/contact-us"
+      "canonical": "https://angelsclosets.com/contact-us"
     },
     "openGraph": {
       "title": "Nous Contacter | Angel's Closet",
       "description": "Besoin d'aide ? Contactez notre équipe pour toute information et assistance.",
-      "url": "https://angels-closet-web.vercel.app/contact-us",
-      "image": "https://angels-closet-web.vercel.app/images/angel-logo.png",
+      "url": "https://angelsclosets.com/contact-us",
+      "image": "https://angelsclosets.com/images/angel-logo.png",
       "type": "website"
     },
     "twitter": {
       "title": "Nous Contacter | Angel's Closet",
       "description": "Une question ? Contactez-nous pour obtenir de l'aide et du support.",
-      "image": "https://angels-closet-web.vercel.app/angel-logo.png"
+      "image": "https://angelsclosets.com/angel-logo.png"
     }
   }
   

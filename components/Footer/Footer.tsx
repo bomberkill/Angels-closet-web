@@ -42,6 +42,14 @@ export default function Footer() {
       text: t('header.sections.contact'),
       link: '/contact-us',
     },
+    {
+      text: t('header.sections.privacy'),
+      link: '/privacy',
+    },
+    {
+      text: t('header.sections.terms'),
+      link: '/terms',
+    },
   ];
   const subLinks = [
     {

@@ -1,33 +1,30 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import nodemailer from 'nodemailer';
 
-export default async function contactMail({
-  request,
-  response,
-}: {
-  request: NextApiRequest;
-  response: NextApiResponse;
-}) {
+export default async function contactMail(request: NextApiRequest, response: NextApiResponse) {
   const { email, name, phone, subject, message } = request.body;
   if (request.method !== 'POST') {
     return response.status(405).json({ message: 'Only POST methods are allowed' });
   }
   const transport = nodemailer.createTransport({
-    host: 'smtp.ethereal.email',
-    port: 587,
+    host: process.env.SMTP_HOST3,
+    port: 465,
+    secure: true,
     auth: {
-      user: '',
-      pass: '',
+      user: process.env.SMTP_USER3,
+      pass: process.env.SMTP_PASS3,
     },
   });
 
   const mailOptions = {
-    from: `${name} <${email}>`,
-    to: '',
+    from: `${name} <contact@angelsclosets.com>`,
+    replyTo: email,
+    to: 'contact@angelsclosets.com',
     subject: subject ?? "Message from Angel's Closet website",
     text: `${message}\n\nUser phone number : ${phone}`,
   };
   try {
+    // console.log('Sending email with options:', mailOptions); // Log email options
     await transport.sendMail(mailOptions);
     return response.status(200).json({ message: 'Email sent successfully' });
   } catch (error) {

@@ -1,0 +1,28 @@
+{
+    "title": "Privacy Policy",
+    "description": "At Angel's Closet, we are deeply committed to protecting your privacy and handling your personal information responsibly. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we have put in place to safeguard your data when you visit our website and use our remodeling services.",
+    "informationWeCollect": {
+      "title": "1. Information We Collect",
+      "description": "When you interact with our website or remodeling services, we collect certain personal information in order to provide you with quality service. This includes information such as your name, email address, phone number, and address when you contact us or request a service."
+    },
+    "howWeUseYourInformation": {
+      "title": "2. How We Use Your Information",
+      "description": "The information we collect is used primarily to provide you with our remodeling services and respond to your requests efficiently. It also helps us improve our website and services, send personalized offers and promotions (if you have opted in), and comply with legal data protection requirements. Additionally, this data allows us to offer better customer service and resolve any concerns you may have."
+    },
+    "dataProtectionSecurity": {
+      "title": "3. Data Protection & Security",
+      "description": "We take the security of your personal information very seriously and have implemented stringent measures to prevent unauthorized access, alteration, or disclosure of your data. While we use advanced technologies and security protocols to protect your information, we would like to inform you that, despite our best efforts, no online system is completely immune to threats, and we cannot guarantee absolute security."
+    },
+    "sharingYourInformation": {
+      "title": "4. Sharing Your Information",
+      "description": "We respect your privacy and do not sell or rent your personal information to third parties. However, we may share your data with third-party service providers who assist us in managing our operations, such as payment processors or other partners who help manage our website and services. We may also be required to disclose your information if mandated by law, such as in response to a legal request from an appropriate authority."
+    },
+    "yourRights": {
+      "title": "5. Your Rights",
+      "description": "Under data protection legislation, you have certain rights regarding your personal data. You have the right to access your data, update it, delete it, or restrict its processing. You can also opt out of marketing communications or request a copy of the data we hold about you. If you wish to exercise any of these rights, you can contact us at any time."
+    },
+    "changesToPolicy": {
+      "title": "6. Changes to This Policy",
+      "description": "We reserve the right to update this Privacy Policy periodically to reflect changes in our business practices or to address new legal requirements. Any changes to this policy will be posted on this page with the corresponding revision date, and we recommend that you regularly review this page to stay informed of any updates."
+    }
+}  

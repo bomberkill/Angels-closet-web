@@ -84,18 +84,18 @@
         "description": "Vous déménagez bientôt ? Nos services de déménagement experts garantissent un transfert sans stress avec emballage, transport et déballage. Réservez dès maintenant !",
         "keywords": "services de déménagement, relocalisation, déménagement maison, déménagement bureau, services d'emballage, entreprise de déménagement, déménageurs professionnels, déménagement longue distance",
         "robots": "index, follow",
-        "canonical": "https://angels-closet-web.vercel.app/moving"
+        "canonical": "https://angelsclosets.com/moving"
     },
     "openGraph": {
         "title": "Services de Déménagement Professionnels | Angel's Closet",
         "description": "Déménagez en toute sérénité ! Nos services de déménagement prennent en charge tout, de l'emballage au transport. Obtenez un devis gratuit dès aujourd'hui !",
-        "url": "https://angels-closet-web.vercel.app/moving",
-        "image": "https://angels-closet-web.vercel.app/images/deliver.png",
+        "url": "https://angelsclosets.com/moving",
+        "image": "https://angelsclosets.com/images/deliver.png",
         "type": "website"
     },
     "twitter": {
         "title": "Services de Déménagement Professionnels | Angel's Closet",
         "description": "Besoin d'aide pour déménager ? Nos déménageurs experts assurent un service de qualité, incluant emballage et transport. Réservez dès maintenant !",
-        "image": "https://angels-closet-web.vercel.app/images/deliver.png"
+        "image": "https://angelsclosets.com/images/deliver.png"
     }
 }

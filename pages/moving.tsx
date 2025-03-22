@@ -332,6 +332,8 @@ export default function Moving() {
                     >
                       <AspectRatio>
                         <Image
+                          priority
+                          loading="eager"
                           component={NextImage}
                           w="100%"
                           h="100%"
@@ -368,15 +370,7 @@ export default function Moving() {
                     key={index}
                     mounted={advantageTransition}
                     keepMounted
-                    transition={
-                      index % 2 === 0
-                        ? !isSmallScreen
-                          ? 'slide-right'
-                          : 'slide-up'
-                        : !isSmallScreen
-                          ? 'slide-left'
-                          : 'slide-down'
-                    }
+                    transition="fade-up"
                     duration={2500}
                     timingFunction="ease"
                   >
@@ -394,6 +388,8 @@ export default function Moving() {
                         >
                           <AspectRatio>
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={75}
                               h={75}
@@ -451,7 +447,7 @@ export default function Moving() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-right"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -469,6 +465,8 @@ export default function Moving() {
                             h="100%"
                           >
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={150}
                               h={150}
@@ -481,7 +479,7 @@ export default function Moving() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -501,7 +499,7 @@ export default function Moving() {
                     <Transition
                       mounted={serviceTransition}
                       keepMounted
-                      transition="slide-right"
+                      transition="fade-up"
                       duration={3000}
                       timingFunction="ease"
                     >
@@ -520,7 +518,7 @@ export default function Moving() {
                     <Transition
                       mounted={serviceTransition}
                       keepMounted
-                      transition="slide-right"
+                      transition="fade-up"
                       duration={3000}
                       timingFunction="ease"
                     >
@@ -536,6 +534,8 @@ export default function Moving() {
                           h="100%"
                         >
                           <Image
+                            priority
+                            loading="eager"
                             component={NextImage}
                             w={150}
                             h={150}
@@ -553,7 +553,7 @@ export default function Moving() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -572,7 +572,7 @@ export default function Moving() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -580,6 +580,8 @@ export default function Moving() {
                           <Box style={styles} w="100%" h="100%">
                             <AspectRatio>
                               <Image
+                                priority
+                                loading="eager"
                                 component={NextImage}
                                 w={150}
                                 h={150}
@@ -637,15 +639,7 @@ export default function Moving() {
                     key={index}
                     mounted={commitmentTransition}
                     keepMounted
-                    transition={
-                      index % 2 === 0
-                        ? !isSmallScreen
-                          ? 'slide-right'
-                          : 'slide-up'
-                        : !isSmallScreen
-                          ? 'slide-left'
-                          : 'slide-down'
-                    }
+                    transition="fade-up"
                     duration={2500}
                     timingFunction="ease"
                   >
@@ -663,6 +657,8 @@ export default function Moving() {
                         >
                           <AspectRatio>
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={50}
                               h={50}

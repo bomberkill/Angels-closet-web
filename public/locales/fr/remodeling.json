@@ -84,18 +84,18 @@
         "description": "Transformez votre espace avec nos services de rénovation experts. Du design à la finition, nous créons des intérieurs modernes et fonctionnels. Demandez un devis gratuit !",
         "keywords": "services de rénovation, rénovation maison, rénovation bureau, aménagement intérieur, travaux de construction, rénovation cuisine, rénovation salle de bain, entrepreneurs en rénovation",
         "robots": "index, follow",
-        "canonical": "https://angels-closet-web.vercel.app/remodeling"
+        "canonical": "https://angelsclosets.com/remodeling"
     },
     "openGraph": {
         "title": "Services de Rénovation Professionnels | Angel's Closet",
         "description": "Rénovez votre maison ou votre bureau avec nos experts en rénovation. Conception sur mesure, travaux de qualité et finitions impeccables. Contactez-nous dès maintenant !",
-        "url": "https://angels-closet-web.vercel.app/remodeling",
-        "image": "https://angels-closet-web.vercel.app/images/remodeler.png",
+        "url": "https://angelsclosets.com/remodeling",
+        "image": "https://angelsclosets.com/images/remodeler.png",
         "type": "website"
     },
     "twitter": {
         "title": "Services de Rénovation Professionnels | Angel's Closet",
         "description": "Besoin de rénover votre intérieur ? Nos experts assurent des travaux de qualité pour moderniser et optimiser votre espace. Obtenez un devis dès aujourd'hui !",
-        "image": "https://angels-closet-web.vercel.app/images/remodeler.png"
+        "image": "https://angelsclosets.com/images/remodeler.png"
     }
 }

@@ -260,9 +260,6 @@ export default function Cleaning() {
                           ta="center"
                         >
                           {t('title')}
-                          {/* <Text inherit c={theme.colors?.yellow?.[1]} component="span">
-                                                    {t('environment')}
-                                                    </Text> */}
                         </Title>
                         <Text
                           style={styles}
@@ -291,17 +288,6 @@ export default function Cleaning() {
                       </>
                     )}
                   </Transition>
-                  {/* <Transition
-                                        mounted
-                                        keepMounted
-                                        transition="slide-up"
-                                        duration={2500}
-                                        timingFunction="ease"
-                                    >
-                                        {(styles) => (
-                                        
-                                        )}
-                                    </Transition> */}
                 </Box>
               </GridCol>
               <GridCol display={isSmallScreen ? 'block' : 'none'} span={6}>
@@ -324,6 +310,8 @@ export default function Cleaning() {
                     >
                       <AspectRatio>
                         <Image
+                          priority
+                          loading="eager"
                           component={NextImage}
                           w="100%"
                           h="100%"
@@ -360,15 +348,7 @@ export default function Cleaning() {
                     key={index}
                     mounted={advantageTransition}
                     keepMounted
-                    transition={
-                      index % 2 === 0
-                        ? !isSmallScreen
-                          ? 'slide-right'
-                          : 'slide-up'
-                        : !isSmallScreen
-                          ? 'slide-left'
-                          : 'slide-down'
-                    }
+                    transition="fade-up"
                     duration={2500}
                     timingFunction="ease"
                   >
@@ -386,6 +366,8 @@ export default function Cleaning() {
                         >
                           <AspectRatio>
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={75}
                               h={75}
@@ -443,7 +425,7 @@ export default function Cleaning() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-right"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -461,6 +443,8 @@ export default function Cleaning() {
                             h="100%"
                           >
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={150}
                               h={150}
@@ -473,7 +457,7 @@ export default function Cleaning() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -493,7 +477,7 @@ export default function Cleaning() {
                     <Transition
                       mounted={serviceTransition}
                       keepMounted
-                      transition="slide-right"
+                      transition="fade-up"
                       duration={3000}
                       timingFunction="ease"
                     >
@@ -512,7 +496,7 @@ export default function Cleaning() {
                     <Transition
                       mounted={serviceTransition}
                       keepMounted
-                      transition="slide-right"
+                      transition="fade-up"
                       duration={3000}
                       timingFunction="ease"
                     >
@@ -528,6 +512,8 @@ export default function Cleaning() {
                           h="100%"
                         >
                           <Image
+                            priority
+                            loading="eager"
                             component={NextImage}
                             w={150}
                             h={150}
@@ -545,7 +531,7 @@ export default function Cleaning() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -564,7 +550,7 @@ export default function Cleaning() {
                       <Transition
                         mounted={serviceTransition}
                         keepMounted
-                        transition="slide-left"
+                        transition="fade-up"
                         duration={3000}
                         timingFunction="ease"
                       >
@@ -572,6 +558,8 @@ export default function Cleaning() {
                           <Box style={styles} w="100%" h="100%">
                             <AspectRatio>
                               <Image
+                                priority
+                                loading="eager"
                                 component={NextImage}
                                 w={150}
                                 h={150}
@@ -629,15 +617,7 @@ export default function Cleaning() {
                     key={index}
                     mounted={commitmentTransition}
                     keepMounted
-                    transition={
-                      index % 2 === 0
-                        ? !isSmallScreen
-                          ? 'slide-right'
-                          : 'slide-up'
-                        : !isSmallScreen
-                          ? 'slide-left'
-                          : 'slide-down'
-                    }
+                    transition="fade-up"
                     duration={2500}
                     timingFunction="ease"
                   >
@@ -655,6 +635,8 @@ export default function Cleaning() {
                         >
                           <AspectRatio>
                             <Image
+                              priority
+                              loading="eager"
                               component={NextImage}
                               w={50}
                               h={50}

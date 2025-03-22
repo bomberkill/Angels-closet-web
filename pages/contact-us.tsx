@@ -11,6 +11,7 @@ import {
   Box,
   Button,
   Container,
+  Dialog,
   Grid,
   GridCol,
   Group,
@@ -22,9 +23,11 @@ import {
   Title,
 } from '@mantine/core';
 import { useForm, yupResolver } from '@mantine/form';
-import { useMediaQuery } from '@mantine/hooks';
+import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import Header from '@/components/Header/Header';
 import design from '@/public/images/contact-design.png';
+import correct from '@/public/images/correct.png';
+import cross from '@/public/images/cross.png';
 import { theme } from '@/theme';
 
 export default function ContactUs() {
@@ -33,6 +36,9 @@ export default function ContactUs() {
   // const isSmallScreen = useMediaQuery(`(max-width: 576px)`);
   const [isSending, setIsSending] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
+  const [failed, setFailed] = useState<boolean>(false);
+  const [opened, { toggle, close }] = useDisclosure(false);
+
   const initialValues = {
     name: '',
     email: '',
@@ -53,35 +59,6 @@ export default function ContactUs() {
     initialValues,
     validate: yupResolver(validationSchema),
   });
-  const submitMessage = async () => {
-    setIsSending(true);
-    console.log(contactForm.values);
-    await axios
-      .post('/api/contact-mail', contactForm.values)
-      .then(() => {
-        // setIsSending(false);
-        console.log('Email sent successfully');
-      })
-      .catch((error) => {
-        console.log('Error sending mail: ', error);
-      })
-      .finally(() => {
-        setIsSending(false);
-      });
-  };
-  const sendConfirmationMessage = async () => {
-    await axios
-      .post('/api/confirmation-mail', {
-        email: contactForm.values.email,
-        name: contactForm.values.name,
-      })
-      .then(() => {
-        console.log('Confirmation email sent successfully');
-      })
-      .catch((error) => {
-        console.log('Error sending confirmation email: ', error);
-      });
-  };
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -121,12 +98,41 @@ export default function ContactUs() {
       </Head>
       <Header color hide={scrolled} />
       <Box pb={theme.spacing?.xl} pt="10vh">
+        <Dialog opened={opened} withCloseButton onClose={close} size="lg" radius="md">
+          {failed ? (
+            <Group align="center" justify="start">
+              <Box w={25} h={25}>
+                <Image w="100%" h="100%" component={NextImage} alt="cross" src={cross} />
+              </Box>
+              <Box>
+                <Text size="sm" mb="xs" fw={500}>
+                  Failed
+                </Text>
+                <Text size="xs">Something went wrong</Text>
+              </Box>
+            </Group>
+          ) : (
+            <Group justify="start" align="center">
+              <Box w={25} h={25}>
+                <Image w="100%" h="100%" component={NextImage} alt="cross" src={correct} />
+              </Box>
+              <Box>
+                <Text size="sm" mb="xs" fw={500}>
+                  Done
+                </Text>
+                <Text size="xs">Message successfully sent!</Text>
+              </Box>
+            </Group>
+          )}
+        </Dialog>
         <Container size={isMediumScreen ? '90%' : '90%'}>
           <Grid align="center" justify="center">
             <GridCol display={!isMediumScreen ? 'block' : 'none'} span={6}>
               <Box>
                 <AspectRatio>
                   <Image
+                    priority
+                    loading="eager"
                     component={NextImage}
                     src={design}
                     alt="design"
@@ -144,8 +150,68 @@ export default function ContactUs() {
                 </Title>
                 <form
                   onSubmit={contactForm.onSubmit(async () => {
-                    await submitMessage();
-                    await sendConfirmationMessage();
+                    setIsSending(true);
+                    setFailed(false);
+                    try {
+                      // Première requête : envoi du mail de contact
+                      await axios.post('/api/contact-mail', contactForm.values);
+                      console.log('Email sent successfully');
+                    } catch (error) {
+                      // Si l'envoi échoue, on stoppe ici
+                      setFailed(true);
+                      toggle();
+                      setIsSending(false);
+                      // console.log('Error sending mail: ', error);
+                      return;
+                    }
+
+                    try {
+                      // Deuxième requête : envoi de l'email de confirmation
+                      await axios.post('/api/confirmation-mail', {
+                        email: contactForm.values.email,
+                        name: contactForm.values.name,
+                      });
+                      console.log('Confirmation email sent successfully');
+                    } catch (error) {
+                      setFailed(true);
+                      toggle();
+                      setIsSending(false);
+                      // console.log('Error sending confirmation email: ', error);
+                      return;
+                    }
+                    setIsSending(false);
+                    toggle();
+                    contactForm.reset();
+                    // await axios
+                    //   .post('/api/contact-mail', contactForm.values)
+                    //   .then(() => {
+                    //     // setIsSending(false);
+                    //     console.log('Email sent successfully');
+                    //   })
+                    //   .catch((error) => {
+                    //     setFailed(true)
+                    //     toggle()
+                    //     setIsSending(false)
+                    //     console.log('Error sending mail: ', error);
+                    //     return
+                    //   });
+                    // await axios
+                    //   .post('/api/confirmation-mail', {
+                    //     email: contactForm.values.email,
+                    //     name: contactForm.values.name,
+                    //   })
+                    //   .then(() => {
+                    //     console.log('Confirmation email sent successfully');
+                    //   })
+                    //   .catch((error) => {
+                    //     setFailed(true)
+                    //     toggle()
+                    //     setIsSending(false)
+                    //     console.log('Error sending confirmation email: ', error);
+                    //     return
+                    //   })
+                    // toggle()
+                    // contactForm.reset()
                   })}
                 >
                   <TextInput

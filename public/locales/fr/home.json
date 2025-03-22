@@ -63,20 +63,20 @@
         "description": "Looking for stress-free moving, expert remodeling, or professional cleaning services? We provide top-quality solutions tailored to your needs. Get a free quote today!",
         "keywords": "moving services, remodeling, home cleaning, professional movers, deep cleaning, home renovation, stress-free moving, expert remodeling, cleaning company, best movers",
         "robots": "index, follow",
-        "canonical": "https://angels-closet-web.vercel.app/"
+        "canonical": "https://angelsclosets.com/"
     },
     "openGraph": {
         "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
         "description": "Get professional moving, remodeling, and cleaning services tailored to your needs. Hassle-free experience guaranteed!",
-        "url": "https://angels-closet-web.vercel.app/",
-        "image": "https://angels-closet-web.vercel.app/angel-logo.svg",
+        "url": "https://angelsclosets.com/",
+        "image": "https://angelsclosets.com/angel-logo.png",
         "type": "website"
     },
     "twitter": {
         "card": "summary_large_image",
         "title": "Top Moving, Remodeling & Cleaning Services | Angel's Closet",
         "description": "Looking for professional moving, remodeling, or cleaning services? We’ve got you covered. Get a free quote today!",
-        "image": "https://angels-closet-web.vercel.app/angel-logo.svg",
+        "image": "https://angelsclosets.com/angel-logo.png",
         "site": "@YourTwitterHandle"
     }
 
