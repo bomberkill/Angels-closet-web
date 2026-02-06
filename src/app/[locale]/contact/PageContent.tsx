@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import axios from 'axios';
 
 import { motion } from 'framer-motion';
 import Header from '@/components/layout/Header';
@@ -26,27 +27,19 @@ export default function Contact() {
         setStatus('loading');
 
         try {
-            const res = await fetch('/api/contact', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    name: `${formData.firstName} ${formData.lastName}`,
-                    email: formData.email,
-                    phone: formData.phone,
-                    service: formData.service,
-                    message: formData.message
-                }),
+            const res = await axios.post('/api/contact', {
+                name: `${formData.firstName} ${formData.lastName}`,
+                email: formData.email,
+                phone: formData.phone,
+                service: formData.service,
+                message: formData.message
             });
 
-            if (res.ok) {
+            if (res.status === 200) {
                 // Send confirmation email asynchronously (fire and forget)
-                fetch('/api/confirmation', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        name: `${formData.firstName} ${formData.lastName}`,
-                        email: formData.email
-                    }),
+                axios.post('/api/confirmation', {
+                    name: `${formData.firstName} ${formData.lastName}`,
+                    email: formData.email
                 }).catch(err => console.error('Failed to send confirmation', err));
 
                 setStatus('success');
