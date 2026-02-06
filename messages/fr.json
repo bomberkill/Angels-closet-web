@@ -200,7 +200,8 @@
         "rights": "Tous droits réservés.",
         "slogan": "Élever les services à domicile au rang d'art. Nous proposons un déménagement haut de gamme, un nettoyage méticuleux et une rénovation visionnaire pour une clientèle exigeante.",
         "terms": "Conditions d'Utilisation",
-        "privacy": "Politique de Confidentialité"
+        "privacy": "Politique de Confidentialité",
+        "developer": "Conçu & Développé par Ronald"
     },
     "Terms": {
         "title": "Termes et Conditions",
@@ -299,5 +300,10 @@
             "title": "Politique de Confidentialité | Angel's Closet",
             "description": "Comment nous protégeons vos données et votre vie privée tout en fournissant nos services."
         }
+    },
+    "NotFound": {
+        "title": "Page Non Trouvée",
+        "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+        "button": "Retour à l'Accueil"
     }
 }

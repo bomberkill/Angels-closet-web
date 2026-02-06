@@ -108,6 +108,13 @@ export default function Footer() {
                         <Link href="/privacy" className="hover:text-gold transition-colors">{t('privacy')}</Link>
                     </div>
                 </div>
+
+                {/* Developer Credit */}
+                <div className="mt-4 flex justify-center">
+                    <a href="mailto:ronaldkamwa@yahoo.com" className="text-slate-dark text-xs hover:text-gold transition-colors">
+                        {t('developer')}
+                    </a>
+                </div>
             </div>
         </footer>
     );
