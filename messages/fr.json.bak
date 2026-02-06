@@ -1,0 +1,269 @@
+{
+    "Header": {
+        "home": "Accueil",
+        "moving": "Déménagement",
+        "cleaning": "Nettoyage",
+        "remodeling": "Rénovation",
+        "about": "À propos",
+        "contact": "Contact",
+        "getQuote": "Devis Gratuit"
+    },
+    "Hero": {
+        "badge": "Services Résidentiels Premium",
+        "titlePrefix": "Élevez Votre",
+        "titleSuffix": "Espace de Vie",
+        "description": "Découvrez l'excellence du service à domicile. Du déménagement haut de gamme à la rénovation de luxe et au nettoyage méticuleux, nous gérons chaque détail avec précision.",
+        "ctaPrimary": "Démarrer Votre Projet",
+        "ctaSecondary": "Nos Services",
+        "scroll": "Défiler"
+    },
+    "ServiceBento": {
+        "sectionTitle": "Notre <span>Expertise</span>",
+        "sectionSubtitle": "Des solutions complètes adaptées à votre style de vie. Nous allions fonctionnalité et esthétique avec une qualité sans compromis.",
+        "movingTitle": "Déménagement de Précision",
+        "movingDesc": "Services de relocalisation haut de gamme pour vos biens les plus précieux.",
+        "remodelingTitle": "Rénovation de Luxe",
+        "remodelingDesc": "Transformez votre espace avec un design architectural sur mesure.",
+        "cleaningTitle": "Nettoyage en Profondeur",
+        "cleaningDesc": "Assainissement de qualité hospitalière et détails méticuleux."
+    },
+    "Stats": {
+        "years": "Années d'Excellence",
+        "projects": "Projets Réalisés",
+        "satisfaction": "Satisfaction Client",
+        "team": "Membres de l'Équipe"
+    },
+    "Process": {
+        "title": "Comment Ça <span>Marche</span>",
+        "subtitle": "Une expérience fluide et sans stress, du début à la fin.",
+        "step1": "Consultation",
+        "step1Desc": "Nous écoutons vos besoins et évaluons votre espace.",
+        "step2": "Planification",
+        "step2Desc": "Nous programmons un moment opportun et préparons un plan sur mesure.",
+        "step3": "Exécution",
+        "step3Desc": "Notre équipe d'experts opère sa magie dans le respect de votre domicile.",
+        "step4": "Satisfaction",
+        "step4Desc": "Nous effectuons une inspection finale pour garantir la perfection."
+    },
+    "Testimonials": {
+        "title": "Témoignages <span>Clients</span>",
+        "subtitle": "Ne nous croyez pas sur parole.",
+        "story1": "The attention to detail was incredible. They didn't just move my furniture; they cared for it. Angel's Closet is in a league of their own.",
+        "role1": "Propriétaire",
+        "story2": "As a designer, I'm picky. But their remodeling team interpreted my vision perfectly. The craftsmanship is top-tier.",
+        "role2": "Architecte d'intérieur",
+        "story3": "Our office has never looked cleaner. Their deep cleaning service transformed our workspace overnight. Highly recommended!",
+        "role3": "Propriétaire d'entreprise"
+    },
+    "CTA": {
+        "title": "Votre Maison, <span>Réinventée</span>",
+        "description": "Donnons vie à votre vision. Planifiez votre consultation dès aujourd'hui.",
+        "button": "Obtenir un Devis Gratuit"
+    },
+    "About": {
+        "title": "À Propos d'Angel's <span>Closet</span>",
+        "subtitle": "Redéfinir les services à domicile avec élégance, précision et soin.",
+        "storyTitle": "Notre Histoire",
+        "storyText1": "Fondé sur la conviction que votre maison est votre sanctuaire, Angel's Closet a débuté comme un service d'organisation boutique et est devenu un fournisseur de premier plan de solutions complètes pour la maison.",
+        "storyText2": "Nous comprenons que déménager, rénover ou nettoyer en profondeur peut être stressant. Notre mission est de transformer ces tâches nécessaires en expériences fluides et haut de gamme.",
+        "valuesTitle": "Nos Valeurs",
+        "value1Title": "Excellence",
+        "value1Desc": "Nous ne faisons jamais de compromis sur la qualité. Chaque détail compte.",
+        "value2Title": "Intégrité",
+        "value2Desc": "La confiance est notre fondation. Nous traitons votre maison comme la nôtre.",
+        "value3Title": "Innovation",
+        "value3Desc": "Nous cherchons constamment de meilleures façons de vous servir."
+    },
+    "Moving": {
+        "heroBadge": "Services de Déménagement d'Élite",
+        "heroTitlePrefix": "Déménager avec",
+        "heroTitleSuffix": "Précision",
+        "heroDesc": "Des objets de famille aux meubles lourds, nous manipulons vos biens avec un soin extrême.",
+        "feature1Title": "Garantie Zéro Dommage",
+        "feature1Desc": "Entièrement assuré et méticuleusement emballé.",
+        "feature2Title": "Livraison à l'Heure",
+        "feature2Desc": "Nous respectons votre emploi du temps, à la minute près.",
+        "feature3Title": "Service d'Emballage Complet",
+        "feature3Desc": "Détendez-vous. Nous mettons en boîte, emballons et étiquetons tout.",
+        "ctaTitle": "Prêt pour un déménagement en douceur ?",
+        "ctaButton": "Obtenir un Devis",
+        "pricingTitle": "Forfaits de Déménagement",
+        "pricingSubtitle": "Solutions sur mesure pour chaque taille et complexité de déménagement.",
+        "tier1Title": "Transport Uniquement",
+        "tier1Desc": "Idéal pour ceux qui préfèrent emballer eux-mêmes.",
+        "tier1Features": "Camion Professionnel,Chargement et Déchargement,Protection des Meubles,Assurance de Base",
+        "tier2Title": "Service Complet",
+        "tier2Desc": "Nous gérons tout, de l'emballage à l'installation.",
+        "tier2Features": "Matériel d'Emballage Inclus,Service d'Emballage Complet,Démontage/Remontage,Penderies",
+        "tier3Title": "Gants Blancs",
+        "tier3Desc": "L'expérience de déménagement de luxe ultime.",
+        "tier3Features": "Chef de Projet Dédié,Caisses pour Art et Antiquités,Déballage et Organisation,Nettoyage Inclus",
+        "faqTitle": "FAQ Déménagement",
+        "faq1Q": "Combien de temps à l'avance dois-je réserver ?",
+        "faq1A": "Nous recommandons de réserver 4 à 6 semaines à l'avance, surtout pour les week-ends ou la haute saison.",
+        "faq2Q": "Fournissez-vous des cartons ?",
+        "faq2A": "Oui, nos forfaits Service Complet et Gants Blancs incluent tout le matériel d'emballage nécessaire.",
+        "faq3Q": "Mes biens sont-ils assurés ?",
+        "faq3A": "Absolument. Nous offrons une couverture complète pour tous les articles sous notre  garde."
+    },
+    "Cleaning": {
+        "heroBadge": "Environnements Immaculés",
+        "heroTitlePrefix": "Propreté",
+        "heroTitleSuffix": "Immaculée",
+        "heroDesc": "Découvrez le luxe d'une maison vraiment impeccable. L'assainissement de qualité hospitalière rencontre la fraîcheur d'un spa.",
+        "feature1Title": "Produits Écologiques",
+        "feature1Desc": "Sans danger pour les animaux, les enfants et la planète.",
+        "feature2Title": "Nettoyage en Profondeur Détaillé",
+        "feature2Desc": "Plinthes, aérations et recoins cachés inclus.",
+        "feature3Title": "Professionnels Vérifiés",
+        "feature3Desc": "Des experts de confiance qui respectent votre vie privée.",
+        "ctaTitle": "Rentrez chez vous vers la perfection.",
+        "ctaButton": "Planifier un Nettoyage",
+        "pricingTitle": "Niveaux de Nettoyage",
+        "pricingSubtitle": "Choisissez le niveau de détail qui convient à votre maison.",
+        "tier1Title": "Entretien",
+        "tier1Desc": "Service hebdomadaire ou bi-mensuel pour garder votre maison fraîche.",
+        "tier1Features": "Dépoussiérage des Surfaces,Aspiration et Lavage,Désinfection Cuisine/SdB,Enlèvement des Poubelles",
+        "tier2Title": "Nettoyage Approfondi",
+        "tier2Desc": "Un rafraîchissement complet de haut en bas.",
+        "tier2Features": "Intérieur Placards/Appareils,Plinthes et Encadrements,Aérations et Luminaires,Récurage des Joints",
+        "tier3Title": "Emménagement/Déménagement",
+        "tier3Desc": "Assurez-vous que la propriété est prête pour son prochain chapitre.",
+        "tier3Features": "Nettoyage Approfondi + Fenêtres,Nettoyage des Tapis,Détachage des Murs,Balayage Garage",
+        "faqTitle": "FAQ Nettoyage",
+        "faq1Q": "Dois-je fournir le matériel ?",
+        "faq1A": "Non, nous apportons notre propre équipement et produits de qualité professionnelle et écologiques.",
+        "faq2Q": "Votre personnel est-il vérifié ?",
+        "faq2A": "Oui, chaque membre de l'équipe subit une vérification rigoureuse des antécédents et une formation approfondie.",
+        "faq3Q": "Et si je ne suis pas satisfait ?",
+        "faq3A": "Nous offrons une garantie de satisfaction à 100 %. Si quelque chose ne va pas, nous revenons le corriger sous 24 heures."
+    },
+    "Remodeling": {
+        "heroBadge": "Maîtrise Artisanale",
+        "heroTitlePrefix": "Rénovation",
+        "heroTitleSuffix": "Visionnaire",
+        "heroDesc": "Réinventez votre espace. Du concept à la réalisation, nous construisons la maison de vos rêves.",
+        "feature1Title": "Conception Architecturale",
+        "feature1Desc": "Plans et rendus 3D pour visualiser votre futur.",
+        "feature2Title": "Matériaux Premium",
+        "feature2Desc": "Provenant des meilleurs fournisseurs pour une beauté durable.",
+        "feature3Title": "Clé en Main Total",
+        "feature3Desc": "Nous gérons les permis, la plomberie, l'électricité et les finitions.",
+        "ctaTitle": "Construisons quelque chose de magnifique.",
+        "ctaButton": "Démarrer la Rénovation",
+        "pricingTitle": "Services de Conception & Construction",
+        "pricingSubtitle": "Les projets sur mesure nécessitent des solutions sur mesure.",
+        "tier1Title": "Mise à Jour Cosmétique",
+        "tier1Desc": "Rafraîchissez votre espace sans changements structurels.",
+        "tier1Features": "Peinture et Finitions,Remplacement de Sol,Mise à Jour des Luminaires,Refacing d'Armoires",
+        "tier2Title": "Rénovation Complète",
+        "tier2Desc": "Transformation complète d'une pièce spécifique.",
+        "tier2Features": "Rénovation Cuisine/SdB,Reconfiguration de l'Espace,Ébénisterie sur Mesure,Finitions Haut de Gamme",
+        "tier3Title": "Maison Entière",
+        "tier3Desc": "Réinvention architecturale complète.",
+        "tier3Features": "Additions et Extensions,Changements Structurels,Domotique Intégrée,Gestion de Projet Complète",
+        "faqTitle": "FAQ Rénovation",
+        "faq1Q": "Gérez-vous les permis ?",
+        "faq1A": "Oui, nous gérons tout le processus de permis avec les autorités locales pour que vous n'ayez pas à le faire.",
+        "faq2Q": "Comment gérez-vous les dépassements de budget ?",
+        "faq2A": "Nous fournissons un contrat à prix fixe pour l'étendue des travaux définis. Tout changement est approuvé par écrit.",
+        "faq3Q": "Offrez-vous une garantie ?",
+        "faq3A": "Oui, nous offrons une garantie de main-d'œuvre de 2 ans sur tous nos projets de rénovation."
+    },
+    "Contact": {
+        "title": "Contactez <span>Nous</span>",
+        "subtitle": "Prêt à élever votre espace de vie ? Contactez-nous pour une consultation ou un devis.",
+        "infoTitle": "Informations de Contact",
+        "phoneTitle": "Téléphone",
+        "emailTitle": "Email",
+        "locationTitle": "Lieu",
+        "city": "Silver Spring, MD",
+        "formFirstName": "Prénom",
+        "formLastName": "Nom",
+        "formEmail": "Adresse E-mail",
+        "formPhone": "Numéro de Téléphone",
+        "formService": "Service Souhaité",
+        "formMessage": "Message",
+        "formButton": "Envoyer le Message",
+        "mapLoading": "Chargement de la Carte Interactive..."
+    },
+    "Gallery": {
+        "title": "Voyez la <span>Différence</span>",
+        "subtitle": "Faites glisser le curseur pour révéler la transformation.",
+        "before": "Avant",
+        "after": "Après"
+    },
+    "Footer": {
+        "company": "Entreprise",
+        "services": "Services",
+        "contact": "Contactez-nous",
+        "rights": "Tous droits réservés.",
+        "slogan": "Élever les services à domicile au rang d'art. Nous proposons un déménagement haut de gamme, un nettoyage méticuleux et une rénovation visionnaire pour une clientèle exigeante.",
+        "terms": "Conditions d'Utilisation",
+        "privacy": "Politique de Confidentialité"
+    },
+    "Terms": {
+        "title": "Termes et Conditions",
+        "description": "Ces termes et conditions définissent les règles et règlements pour l'utilisation de nos services. En utilisant notre site Web, vous acceptez de vous conformer à ces termes.",
+        "sections": {
+            "1": {
+                "title": "1. Acceptation des Conditions",
+                "description": "En accédant à nos services ou en les utilisant, vous acceptez de vous conformer et d'être lié par ces Termes et Conditions. Si vous n'êtes pas d'accord avec une partie quelconque de ces conditions, vous ne devez pas utiliser nos services. Ces conditions s'appliquent à tous les utilisateurs de notre site Web et de nos services, y compris les visiteurs, les utilisateurs enregistrés et les clients. Nous nous réservons le droit de modifier, mettre à jour ou changer ces conditions à tout moment, nous vous encourageons donc à les consulter périodiquement."
+            },
+            "2": {
+                "title": "2. Utilisation des Services",
+                "description": "Nos services sont fournis pour votre usage personnel et non commercial. Vous acceptez de ne pas utiliser les services à des fins illégales ou non autorisées, y compris, mais sans s'y limiter, la violation des droits de propriété intellectuelle, la fraude ou la distribution de contenu nuisible. Vous êtes responsable de vous assurer que votre utilisation de nos services respecte toutes les lois, règlements et directives applicables. Nous pouvons suspendre ou résilier votre accès si nous estimons que votre utilisation des services viole ces conditions."
+            },
+            "3": {
+                "title": "4. Propriété Intellectuelle",
+                "description": "Tout le contenu fourni par le biais de nos services, y compris les textes, graphiques, logos, images, logiciels et marques, est la propriété de notre entreprise ou sous licence et est protégé par des lois sur le droit d'auteur et d'autres lois sur la propriété intellectuelle. Vous ne pouvez pas utiliser, modifier, reproduire ou distribuer ce contenu sans notre autorisation écrite expresse, sauf si la loi le permet. Toute utilisation non autorisée de notre propriété intellectuelle peut entraîner des actions en justice. Nous respectons les droits de propriété intellectuelle des autres et attendons de nos utilisateurs qu'ils fassent de même."
+            },
+            "4": {
+                "title": "5. Avertissement sur les Garanties",
+                "description": "Nous nous efforçons de fournir des services précis et fiables ; cependant, nous ne faisons aucune déclaration ni garantie concernant la disponibilité, la précision ou la performance de nos services. Nos services sont fournis 'tels quels', et nous déclinons toutes les garanties, explicites ou implicites, y compris mais sans s'y limiter, les garanties implicites de qualité marchande, d'adéquation à un usage particulier et de non-contrefaçon. Nous ne garantissons pas que nos services répondront à vos attentes ou seront exempts d'erreurs ou d'interruptions. Vous utilisez nos services à vos propres risques."
+            },
+            "5": {
+                "title": "6. Limitation de Responsabilité",
+                "description": "Dans la mesure maximale autorisée par la loi, nous ne serons pas tenus responsables des dommages, y compris mais sans s'y limiter, des dommages directs, indirects, accessoires, spéciaux ou consécutifs, découlant de l'utilisation ou de l'incapacité d'utiliser nos services. Cela inclut les dommages pour perte de données, interruptions d'activité ou blessures corporelles. Notre responsabilité totale, dans tous les cas, ne dépassera pas le montant que vous avez payé pour le service spécifique ayant donné lieu à la réclamation. Nous ne sommes pas responsables du contenu ou des services tiers liés à notre site Web ou à nos services."
+            },
+            "6": {
+                "title": "7. Modifications des Conditions",
+                "description": "Nous nous réservons le droit de mettre à jour ou de modifier ces Termes et Conditions à tout moment. Si nous apportons des modifications, nous publierons les conditions mises à jour sur notre site Web avec la date de la révision la plus récente. Il est de votre responsabilité de consulter régulièrement ces conditions pour rester informé des changements. En continuant à utiliser nos services après la publication des modifications, vous acceptez les Termes et Conditions révisés. Si vous n'êtes pas d'accord avec les modifications, vous devez cesser d'utiliser nos services immédiatement."
+            },
+            "7": {
+                "title": "8. Loi Applicable",
+                "description": "Ces Termes et Conditions seront régis et interprétés conformément aux lois de la juridiction dans laquelle notre entreprise est située, sans tenir compte de ses principes de conflit de lois. Tout litige découlant de ou lié à ces conditions sera résolu par les tribunaux compétents de la juridiction où notre entreprise opère. En utilisant nos services, vous consentez à la juridiction exclusive et au lieu des tribunaux situés dans cette juridiction."
+            }
+        }
+    },
+    "Privacy": {
+        "title": "Politique de Confidentialité",
+        "description": "Chez Angel's Closet, nous nous engageons fermement à protéger votre vie privée et à gérer vos informations personnelles de manière responsable. Cette Politique de Confidentialité décrit les types d'informations que nous collectons, la manière dont nous les utilisons, ainsi que les mesures que nous mettons en place pour assurer la sécurité de vos données lorsque vous visitez notre site web et utilisez nos services de rénovation.",
+        "sections": {
+            "1": {
+                "title": "1. Informations que nous collectons",
+                "description": "Lorsque vous interagissez avec notre site web ou nos services de rénovation, nous collectons certaines informations personnelles afin de pouvoir vous fournir un service de qualité. Cela inclut des informations telles que votre nom, votre adresse e-mail, votre numéro de téléphone et votre adresse lorsque vous nous contactez ou demandez un service."
+            },
+            "2": {
+                "title": "2. Comment nous utilisons vos informations",
+                "description": "Les informations que nous recueillons sont utilisées principalement pour vous fournir nos services de rénovation et répondre efficacement à vos demandes. Elles nous permettent également d'améliorer notre site et nos services, de vous envoyer des offres et promotions personnalisées (si vous avez consenti à recevoir ces informations) et de nous conformer aux exigences légales en matière de protection des données. Nous utilisons également ces informations pour assurer un meilleur service client et résoudre rapidement vos préoccupations."
+            },
+            "3": {
+                "title": "3. Protection et sécurité des données",
+                "description": "Nous prenons la sécurité de vos informations personnelles très au sérieux et avons mis en place des mesures strictes pour éviter tout accès non autorisé, modification ou divulgation de vos données. Bien que nous utilisions des technologies et des protocoles de sécurité avancés pour protéger vos informations, nous souhaitons vous informer que, bien que nous fassions tout notre possible, aucun système en ligne n'est totalement à l'abri de menaces, et nous ne pouvons donc pas garantir une sécurité absolue."
+            },
+            "4": {
+                "title": "4. Partage de vos informations",
+                "description": "Nous respectons votre vie privée et nous ne vendons ni ne louons vos informations personnelles à des tiers. Cependant, nous pouvons être amenés à partager vos données avec des prestataires de services tiers qui nous aident à gérer nos activités, tels que les processeurs de paiements ou d'autres partenaires qui facilitent la gestion de notre site web et de nos services. Nous pourrions également être tenus de divulguer vos informations si la loi l'exige, par exemple, en réponse à une demande légale d'une autorité compétente."
+            },
+            "5": {
+                "title": "5. Vos droits",
+                "description": "En vertu de la législation sur la protection des données, vous disposez de certains droits relatifs à vos informations personnelles. Vous avez le droit d'accéder à vos données, de les mettre à jour, de les supprimer ou de limiter leur traitement. Vous pouvez également vous opposer à l'utilisation de vos informations à des fins marketing ou demander une copie des données que nous avons collectées à votre sujet. Si vous souhaitez exercer l'un de ces droits, vous pouvez nous contacter à tout moment."
+            },
+            "6": {
+                "title": "6. Modifications de cette politique",
+                "description": "Nous nous réservons le droit de mettre à jour cette Politique de Confidentialité de temps à autre, afin de refléter les évolutions de nos pratiques commerciales ou pour répondre à de nouvelles exigences légales. Toute modification apportée à cette politique sera publiée sur cette page avec la date de révision correspondante, et il vous est recommandé de consulter régulièrement cette page pour rester informé des éventuels changements."
+            }
+        }
+    }
+}

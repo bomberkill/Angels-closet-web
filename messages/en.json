@@ -1,0 +1,303 @@
+{
+    "Header": {
+        "home": "Home",
+        "moving": "Moving",
+        "cleaning": "Cleaning",
+        "remodeling": "Remodeling",
+        "about": "About",
+        "contact": "Contact",
+        "getQuote": "Get Quote"
+    },
+    "Hero": {
+        "badge": "Premier Home Services",
+        "titlePrefix": "Elevate Your",
+        "titleSuffix": "Living Space",
+        "description": "Experience the pinnacle of home care. From white-glove moving to luxury remodeling and meticulous cleaning, we handle every detail with precision.",
+        "ctaPrimary": "Start Your Project",
+        "ctaSecondary": "Our Services",
+        "scroll": "Scroll"
+    },
+    "ServiceBento": {
+        "sectionTitle": "Our <span>Expertise</span>",
+        "sectionSubtitle": "Comprehensive home solutions tailored to your lifestyle. We elevate functionality and aesthetics with uncompromising quality.",
+        "movingTitle": "Precision Moving",
+        "movingDesc": "White-glove relocation services for your most prized possessions.",
+        "remodelingTitle": "Luxury Remodeling",
+        "remodelingDesc": "Transform your space with bespoke architectural design.",
+        "cleaningTitle": "Deep Cleaning",
+        "cleaningDesc": "Hospital-grade sanitation and meticulous detailing."
+    },
+    "Stats": {
+        "years": "Years of Excellence",
+        "projects": "Projects Completed",
+        "satisfaction": "Client Satisfaction",
+        "team": "Team Members"
+    },
+    "Process": {
+        "title": "How It <span>Works</span>",
+        "subtitle": "A seamless, stress-free experience from start to finish.",
+        "step1": "Consultation",
+        "step1Desc": "We listen to your needs and assess your space.",
+        "step2": "Planning",
+        "step2Desc": "We schedule a convenient time and prepare a tailored plan.",
+        "step3": "Execution",
+        "step3Desc": "Our expert team works their magic with respect for your home.",
+        "step4": "Satisfaction",
+        "step4Desc": "We do a final walkthrough to ensure perfection."
+    },
+    "Testimonials": {
+        "title": "Client <span>Stories</span>",
+        "subtitle": "Don't just take our word for it.",
+        "story1": "The attention to detail was incredible. They didn't just move my furniture; they cared for it. Angel's Closet is in a league of their own.",
+        "role1": "Homeowner",
+        "story2": "As a designer, I'm picky. But their remodeling team interpreted my vision perfectly. The craftsmanship is top-tier.",
+        "role2": "Interior Designer",
+        "story3": "Our office has never looked cleaner. Their deep cleaning service transformed our workspace overnight. Highly recommended!",
+        "role3": "Business Owner"
+    },
+    "CTA": {
+        "title": "Your Home, <span>Reimagined</span>",
+        "description": "Let's bring your vision to life. Schedule your consultation today.",
+        "button": "Get a Free Quote"
+    },
+    "About": {
+        "title": "About Angel's <span>Closet</span>",
+        "subtitle": "Redefining home services with elegance, precision, and care.",
+        "storyTitle": "Our Story",
+        "storyText1": "Founded on the belief that your home is your sanctuary, Angel's Closet began as a boutique organizing service and has grown into a premier provider of comprehensive home solutions.",
+        "storyText2": "We understand that moving, remodeling, or deep cleaning can be stressful. Our mission is to transform these necessary tasks into seamless, white-glove experiences.",
+        "valuesTitle": "Our Values",
+        "value1Title": "Excellence",
+        "value1Desc": "We never compromise on quality. Every detail matters.",
+        "value2Title": "Integrity",
+        "value2Desc": "Trust is our foundation. We treat your home like our own.",
+        "value3Title": "Innovation",
+        "value3Desc": "We constantly seek better ways to serve you."
+    },
+    "Moving": {
+        "heroBadge": "Elite Relocation Services",
+        "heroTitlePrefix": "Moving with",
+        "heroTitleSuffix": "Precision",
+        "heroDesc": "From heirlooms to heavy furniture, we handle your possessions with white-glove care.",
+        "feature1Title": "Zero-Damage Guarantee",
+        "feature1Desc": "Fully insured and meticulously packed.",
+        "feature2Title": "On-Time Delivery",
+        "feature2Desc": "We respect your schedule, every minute of it.",
+        "feature3Title": "Full Packing Service",
+        "feature3Desc": "Sit back. We box, wrap, and label everything.",
+        "ctaTitle": "Ready for a smooth move?",
+        "ctaButton": "Get a Quote",
+        "pricingTitle": "Relocation Packages",
+        "pricingSubtitle": "Tailored solutions for every move size and complexity.",
+        "tier1Title": "Transport Only",
+        "tier1Desc": "Ideal for those who prefer to pack themselves.",
+        "tier1Features": "Professional Truck,Loading & Unloading,Furniture Protection,Basic Insurance",
+        "tier2Title": "Full Service",
+        "tier2Desc": "We handle everything from packing to placement.",
+        "tier2Features": "All Packing Materials,Full Packing Service,Disassembly/Assembly,Wardrobe Boxes",
+        "tier3Title": "White Glove",
+        "tier3Desc": " The ultimate luxury moving experience.",
+        "tier3Features": "Dedicated Project Manager,Art & Antique Crating,Unpacking & Organizing,Cleaning Service Included",
+        "faqTitle": "Moving FAQs",
+        "faq1Q": "How far in advance should I book?",
+        "faq1A": "We recommend booking 4-6 weeks in advance, especially for weekends or peak seasons.",
+        "faq2Q": "Do you provide moving boxes?",
+        "faq2A": "Yes, our Full Service and White Glove packages include all necessary high-quality packing materials.",
+        "faq3Q": "Are my belongings insured?",
+        "faq3A": "Absolutely. We provide comprehensive valuation coverage for all items in our care."
+    },
+    "Cleaning": {
+        "heroBadge": "Pristine Environments",
+        "heroTitlePrefix": "Immaculate",
+        "heroTitleSuffix": "Clean",
+        "heroDesc": "Experience the luxury of a truly spotless home. Hospital-grade sanitation meets spa-like freshness.",
+        "feature1Title": "Eco-Friendly Products",
+        "feature1Desc": "Safe for pets, children, and the planet.",
+        "feature2Title": "Detailed Deep Clean",
+        "feature2Desc": "Baseboards, vents, and hidden corners included.",
+        "feature3Title": "Vetted Professionals",
+        "feature3Desc": "Trusted experts who respect your privacy.",
+        "ctaTitle": "Come home to perfection.",
+        "ctaButton": "Schedule Cleaning",
+        "pricingTitle": "Cleaning Tiers",
+        "pricingSubtitle": "Choose the level of detail that suits your home.",
+        "tier1Title": "Maintenance",
+        "tier1Desc": "Weekly or bi-weekly service to keep your home fresh.",
+        "tier1Features": "Surface Dusting,Vacuuming & Mopping,Kitchen & Bath Sanitization,Trash Removal",
+        "tier2Title": "Deep Clean",
+        "tier2Desc": "A comprehensive top-to-bottom refresh.",
+        "tier2Features": "Inside Cabinets/Appliances,Baseboards & Door Frames,Vents & Light Fixtures,Grout Scrubbing",
+        "tier3Title": "Move-In/Out",
+        "tier3Desc": "Ensure the property is ready for its next chapter.",
+        "tier3Features": "Deep Clean + Windows,Carpet Cleaning,Wall Spot Removal,Garage Sweep",
+        "faqTitle": "Cleaning FAQs",
+        "faq1Q": "Do I need to provide supplies?",
+        "faq1A": "No, we bring our own professional-grade, eco-friendly equipment and supplies.",
+        "faq2Q": "Is your staff vetted?",
+        "faq2A": "Yes, every team member undergoes a rigorous background check and extensive training.",
+        "faq3Q": "What if I'm not satisfied?",
+        "faq3A": "We offer a 100% satisfaction guarantee. If something isn't right, we'll return to fix it within 24 hours."
+    },
+    "Remodeling": {
+        "heroBadge": "Master Craftsmanship",
+        "heroTitlePrefix": "Visionary",
+        "heroTitleSuffix": "Remodeling",
+        "heroDesc": "Reimagine your space. From concept to completion, we build your dream home.",
+        "feature1Title": "Architectural Design",
+        "feature1Desc": "Blueprints and 3D renderings to visualize your future.",
+        "feature2Title": "Premium Materials",
+        "feature2Desc": "Sourced from the finest suppliers for lasting beauty.",
+        "feature3Title": "Total Turnkey",
+        "feature3Desc": "We manage permits, plumbing, electrical, and finishings.",
+        "ctaTitle": "Let's build something beautiful.",
+        "ctaButton": "Start Renovation",
+        "pricingTitle": "Design & Build Services",
+        "pricingSubtitle": "Custom projects require custom solutions.",
+        "tier1Title": "Cosmetic Update",
+        "tier1Desc": "Refresh your space without structural changes.",
+        "tier1Features": "Painting & Finishing,Flooring Replacement,Fixture Upgrades,Cabinet Refacing",
+        "tier2Title": "Full Renovation",
+        "tier2Desc": "Complete transformation of a specific room.",
+        "tier2Features": "Kitchen/Bath Remodel,Layout Reconfiguration,Custom Cabinetry,High-End Finishes",
+        "tier3Title": "Whole Home",
+        "tier3Desc": "Comprehensive architectural reinvention.",
+        "tier3Features": "Additions & Extensions,Structural Changes,Smart Home Integration,Full Project Management",
+        "faqTitle": "Remodeling FAQs",
+        "faq1Q": "Do you handle permits?",
+        "faq1A": "Yes, we handle the entire permitting process with local authorities so you don't have to.",
+        "faq2Q": "How do you handle budget overruns?",
+        "faq2A": "We provide a fixed-price contract for the scope of work defined. Any changes are approved by you in writing.",
+        "faq3Q": "Do you provide a warranty?",
+        "faq3A": "Yes, we offer a 2-year workmanship warranty on all our remodeling projects."
+    },
+    "Contact": {
+        "title": "Get in <span>Touch</span>",
+        "subtitle": "Ready to elevate your living space? Contact us for a consultation or quote.",
+        "infoTitle": "Contact Information",
+        "phoneTitle": "Phone",
+        "emailTitle": "Email",
+        "locationTitle": "Location",
+        "city": "Silver Spring, MD",
+        "formFirstName": "First Name",
+        "formLastName": "Last Name",
+        "formEmail": "Email Address",
+        "formPhone": "Phone Number",
+        "formService": "Service Interested In",
+        "formMessage": "Message",
+        "formButton": "Send Message",
+        "mapLoading": "Interactive Map Loading..."
+    },
+    "Gallery": {
+        "title": "See the <span>Difference</span>",
+        "subtitle": "Drag the slider to reveal the transformation.",
+        "before": "Before",
+        "after": "After"
+    },
+    "Footer": {
+        "company": "Company",
+        "services": "Services",
+        "contact": "Contact Us",
+        "rights": "All rights reserved.",
+        "slogan": "Elevating home services to an art form. We provide white-glove moving, meticulous cleaning, and visionary remodeling for the discerning client.",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy"
+    },
+    "Terms": {
+        "title": "Terms and Conditions",
+        "description": "These terms and conditions outline the rules and regulations for the use of our services. By using our website, you agree to comply with these terms.",
+        "sections": {
+            "1": {
+                "title": "1. Acceptance of Terms",
+                "description": "By accessing or using our services, you agree to comply with and be bound by these Terms & Conditions. If you do not agree with any part of these terms, you must not use our services. These terms apply to all users of our website and services, including visitors, registered users, and customers. We reserve the right to modify, update, or change these terms at any time, so we encourage you to review them periodically."
+            },
+            "2": {
+                "title": "2. Use of Services",
+                "description": "Our services are provided to you for personal and non-commercial use. You agree not to use the services for any illegal or unauthorized purpose, including but not limited to violating intellectual property rights, engaging in fraudulent activities, or distributing harmful content. You are responsible for ensuring that your use of our services complies with all applicable laws, regulations, and guidelines. We may suspend or terminate your access if we believe your use of the services violates these terms."
+            },
+            "3": {
+                "title": "4. Intellectual Property",
+                "description": "All content provided through our services, including text, graphics, logos, images, software, and trademarks, are owned by us or licensed to us and are protected by copyright and other intellectual property laws. You may not use, modify, reproduce, or distribute any content without our express written permission, except as allowed by law. Any unauthorized use of our intellectual property may result in legal action. We respect the intellectual property rights of others and expect our users to do the same."
+            },
+            "4": {
+                "title": "5. Disclaimer of Warranties",
+                "description": "We strive to provide accurate and reliable services; however, we make no representations or warranties regarding the availability, accuracy, or performance of our services. Our services are provided 'as is,' and we disclaim all warranties, whether express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not guarantee that our services will meet your expectations or be free from errors or interruptions. You use our services at your own risk."
+            },
+            "5": {
+                "title": "6. Limitation of Liability",
+                "description": "To the fullest extent permitted by law, we shall not be held liable for any damages, including but not limited to direct, indirect, incidental, special, or consequential damages, arising from the use or inability to use our services. This includes damages for loss of data, business interruptions, or personal injury. Our total liability, in any case, will not exceed the amount you have paid us for the specific service that gave rise to the claim. We are not responsible for any third-party content or services linked to our website or services."
+            },
+            "6": {
+                "title": "7. Modifications to Terms",
+                "description": "We reserve the right to update or modify these Terms & Conditions at any time. If we make changes, we will post the updated terms on our website with the date of the most recent revision. It is your responsibility to review these terms periodically to stay informed of any changes. By continuing to use our services after changes have been posted, you accept the revised Terms & Conditions. If you do not agree with the changes, you should stop using our services immediately."
+            },
+            "7": {
+                "title": "8. Governing Law",
+                "description": "These Terms & Conditions shall be governed by and construed in accordance with the laws of the jurisdiction in which our company is based, without regard to its conflict of law principles. Any disputes arising from or relating to these terms shall be resolved in the competent courts of the jurisdiction in which our company operates. By using our services, you consent to the exclusive jurisdiction and venue of the courts located in that jurisdiction."
+            }
+        }
+    },
+    "Privacy": {
+        "title": "Privacy Policy",
+        "description": "At Angel's Closet, we are deeply committed to protecting your privacy and handling your personal information responsibly. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we have put in place to safeguard your data when you visit our website and use our remodeling services.",
+        "sections": {
+            "1": {
+                "title": "1. Information We Collect",
+                "description": "When you interact with our website or remodeling services, we collect certain personal information in order to provide you with quality service. This includes information such as your name, email address, phone number, and address when you contact us or request a service."
+            },
+            "2": {
+                "title": "2. How We Use Your Information",
+                "description": "The information we collect is used primarily to provide you with our remodeling services and respond to your requests efficiently. It also helps us improve our website and services, send personalized offers and promotions (if you have opted in), and comply with legal data protection requirements. Additionally, this data allows us to offer better customer service and resolve any concerns you may have."
+            },
+            "3": {
+                "title": "3. Data Protection & Security",
+                "description": "We take the security of your personal information very seriously and have implemented stringent measures to prevent unauthorized access, alteration, or disclosure of your data. While we use advanced technologies and security protocols to protect your information, we would like to inform you that, despite our best efforts, no online system is completely immune to threats, and we cannot guarantee absolute security."
+            },
+            "4": {
+                "title": "4. Sharing Your Information",
+                "description": "We respect your privacy and do not sell or rent your personal information to third parties. However, we may share your data with third-party service providers who assist us in managing our operations, such as payment processors or other partners who help manage our website and services. We may also be required to disclose your information if mandated by law, such as in response to a legal request from an appropriate authority."
+            },
+            "5": {
+                "title": "5. Your Rights",
+                "description": "Under data protection legislation, you have certain rights regarding your personal data. You have the right to access your data, update it, delete it, or restrict its processing. You can also opt out of marketing communications or request a copy of the data we hold about you. If you wish to exercise any of these rights, you can contact us at any time."
+            },
+            "6": {
+                "title": "6. Changes to This Policy",
+                "description": "We reserve the right to update this Privacy Policy periodically to reflect changes in our business practices or to address new legal requirements. Any changes to this policy will be posted on this page with the corresponding revision date, and we recommend that you regularly review this page to stay informed of any updates."
+            }
+        }
+    },
+    "MetaData": {
+        "home": {
+            "title": "Angel's Closet | Moving, Cleaning & Remodeling Services",
+            "description": "Premier home services in Maryland. Expert moving, deep cleaning, and luxury remodeling solutions tailored to your lifestyle."
+        },
+        "about": {
+            "title": "About Us | Angel's Closet",
+            "description": "Learn about our mission to redefine home services with white-glove care, integrity, and excellence."
+        },
+        "moving": {
+            "title": "Luxury Moving Services | Angel's Closet",
+            "description": "Stress-free relocation with our white-glove moving services. Secure packing, transport, and setup."
+        },
+        "cleaning": {
+            "title": "Deep Cleaning Services | Angel's Closet",
+            "description": "Experience a spotless home with our hospital-grade sanitation and deep cleaning services."
+        },
+        "remodeling": {
+            "title": "Home Remodeling & Design | Angel's Closet",
+            "description": "Transform your space with our premium remodeling services. Kitchens, bathrooms, and full home renovations."
+        },
+        "contact": {
+            "title": "Contact Us | Angel's Closet",
+            "description": "Get a free quote for your moving, cleaning, or remodeling project today."
+        },
+        "terms": {
+            "title": "Terms of Service | Angel's Closet",
+            "description": "Read our terms and conditions regarding the use of our services."
+        },
+        "privacy": {
+            "title": "Privacy Policy | Angel's Closet",
+            "description": "How we protect your data and privacy while providing our home services."
+        }
+    }
+}
