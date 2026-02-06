@@ -57,12 +57,12 @@ export default function Hero() {
                             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
                         </Link>
 
-                        <Link
+                        {/* <Link
                             href="/services" // Note: This link might technically be broken if services page doesn't exist at root, but user asked for services pages which are /moving etc. Wait, I should probably link to section or just keep it generic.
                             className="px-8 py-4 bg-transparent border border-white/20 hover:bg-white/5 text-white font-medium rounded-full transition-colors backdrop-blur-sm"
                         >
                             {t('ctaSecondary')}
-                        </Link>
+                        </Link> */}
                     </motion.div>
                 </motion.div>
             </div>

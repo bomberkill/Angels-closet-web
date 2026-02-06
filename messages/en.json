@@ -200,7 +200,8 @@
         "rights": "All rights reserved.",
         "slogan": "Elevating home services to an art form. We provide white-glove moving, meticulous cleaning, and visionary remodeling for the discerning client.",
         "terms": "Terms of Service",
-        "privacy": "Privacy Policy"
+        "privacy": "Privacy Policy",
+        "developer": "Designed & Developed by Ronald"
     },
     "Terms": {
         "title": "Terms and Conditions",
@@ -299,5 +300,10 @@
             "title": "Privacy Policy | Angel's Closet",
             "description": "How we protect your data and privacy while providing our home services."
         }
+    },
+    "NotFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for does not exist or has been moved.",
+        "button": "Return Home"
     }
 }
