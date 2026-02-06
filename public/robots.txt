@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://angelsclosets.com/
+
+# Sitemaps
+Sitemap: https://angelsclosets.com/sitemap.xml

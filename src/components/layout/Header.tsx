@@ -41,9 +41,9 @@ export default function Header() {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="relative z-50">
-                    <div className="relative w-64 h-16">
+                    <div className="relative w-40 md:w-64 h-12 md:h-16">
                         <Image
-                            src="/logo1.png"
+                            src="/logo3.png"
                             alt="Angel's Closet"
                             fill
                             className="object-contain object-left"
@@ -68,10 +68,12 @@ export default function Header() {
 
                 {/* CTA & Mobile Toggle */}
                 <div className="flex items-center gap-4">
-                    {/* Simple Lang Switcher */}
-                    <Link href="/" locale="en" className={cn("text-xs font-bold", pathname.startsWith('/en') ? "text-gold" : "text-slate")}>EN</Link>
-                    <span className="text-slate/30">|</span>
-                    <Link href="/" locale="fr" className={cn("text-xs font-bold", pathname.startsWith('/fr') ? "text-gold" : "text-slate")}>FR</Link>
+                    {/* Desktop Lang Switcher */}
+                    <div className="hidden md:flex items-center gap-2">
+                        <Link href="/" locale="en" className={cn("text-xs font-bold", pathname.startsWith('/en') ? "text-gold" : "text-slate")}>EN</Link>
+                        <span className="text-slate/30">|</span>
+                        <Link href="/" locale="fr" className={cn("text-xs font-bold", pathname.startsWith('/fr') ? "text-gold" : "text-slate")}>FR</Link>
+                    </div>
 
                     <Link
                         href="/contact"
@@ -83,9 +85,10 @@ export default function Header() {
 
                     <button
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                        className="md:hidden relative z-[1000] text-white hover:text-gold transition-colors"
+                        className="md:hidden relative z-[1000] text-gold p-2 active:scale-95 transition-transform"
+                        aria-label="Toggle Menu"
                     >
-                        {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                        {mobileMenuOpen ? <X size={32} /> : <Menu size={32} />}
                     </button>
                 </div>
             </div>
@@ -109,6 +112,28 @@ export default function Header() {
                                 {link.name}
                             </Link>
                         ))}
+
+                        {/* Mobile Lang Switcher */}
+                        <div className="flex items-center gap-6 mt-4">
+                            <Link
+                                href="/"
+                                locale="en"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className={cn("text-xl font-bold", pathname.startsWith('/en') ? "text-gold" : "text-white/50")}
+                            >
+                                ENGLISH
+                            </Link>
+                            <span className="text-white/20 text-xl">|</span>
+                            <Link
+                                href="/"
+                                locale="fr"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className={cn("text-xl font-bold", pathname.startsWith('/fr') ? "text-gold" : "text-white/50")}
+                            >
+                                FRANÇAIS
+                            </Link>
+                        </div>
+
                         <Link
                             href="/contact"
                             onClick={() => setMobileMenuOpen(false)}

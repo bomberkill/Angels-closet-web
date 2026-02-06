@@ -36,7 +36,7 @@ export default function Footer() {
                         <Link href="/" className="inline-block mb-6">
                             <div className="relative w-64 h-16">
                                 <Image
-                                    src="/logo1.png"
+                                    src="/logo3.png"
                                     alt="Angel's Closet"
                                     fill
                                     className="object-contain object-left"
